@@ -1,0 +1,94 @@
+﻿.form-register {
+    width: 550px;
+    min-height: 500px;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 7px 7px 10px 5px #8888
+}
+
+.header-form-image {
+    background-image: url('/Assets/images/gallery-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 45px;
+    color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-bx {
+    position: relative;
+    width: 300px;
+}
+
+.input-bx input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #7f8fa6;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.8rem;
+    transition: 0.4s;
+}
+
+.input-bx p {
+    position: absolute;
+    top: 12px;
+    left: 26px;
+    padding: 2px;
+    font-size: 0.8rem;
+    color: #7f8fa6;
+    pointer-events: none;
+    transition: 0.6s;
+}
+
+.active {
+    color: #dbcc8f;
+    transform: translateX(10px) translateY(-20px);
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding: 0 10px;
+    background: #fff;
+    letter-spacing: 0.1rem;
+}
+
+.active-date {
+    color: #dbcc8f;
+    transform: translateX(-100px) translateY(-20px);
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding: 0 10px;
+    background: #fff;
+    letter-spacing: 0.1rem;
+}
+
+.input-bx input:focus ~ p {
+    color: #dbcc8f;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.field-validation-error {
+    margin-top: 37px;
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+    padding-bottom: 0.9rem !important;
+    color: #000000 !important;
+}

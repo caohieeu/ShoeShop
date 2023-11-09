@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+using System.Web.UI.WebControls;
+
+namespace ProjectShoeShop.Models
+{
+    public class Order
+    {
+        [Key]
+        public string Id { get; set; }
+        public string UserID { get; set; }
+        [ForeignKey(nameof(UserID))]
+        public User User { get; set; }
+        public int ShippingAddressID { get; set; }
+        public string PaymentMethod { get; set; }
+        public string OrderStatus { get; set; }
+        public string DiscountID { get; set; }
+        [ForeignKey(nameof(DiscountID))]
+        public Discount Discount { get; set; }
+        public DateTime OrderDate { get; set; }
+    }
+}
