@@ -7,13 +7,13 @@ namespace ProjectShoeShop.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class updateUserModel : IMigrationMetadata
+    public sealed partial class initdb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(updateUserModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initdb));
         
         string IMigrationMetadata.Id
         {
-            get { return "202311021516580_updateUserModel"; }
+            get { return "202311120532484_initdb"; }
         }
         
         string IMigrationMetadata.Source

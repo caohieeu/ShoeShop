@@ -204,6 +204,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\BrandController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeAdminController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -211,17 +212,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311021131486_initDb.cs" />
-    <Compile Include="Migrations\202311021131486_initDb.designer.cs">
-      <DependentUpon>202311021131486_initDb.cs</DependentUpon>
+    <Compile Include="Migrations\202311120532484_initdb.cs" />
+    <Compile Include="Migrations\202311120532484_initdb.designer.cs">
+      <DependentUpon>202311120532484_initdb.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311021516580_updateUserModel.cs" />
-    <Compile Include="Migrations\202311021516580_updateUserModel.designer.cs">
-      <DependentUpon>202311021516580_updateUserModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311090217550_addImageFieldUser.cs" />
-    <Compile Include="Migrations\202311090217550_addImageFieldUser.designer.cs">
-      <DependentUpon>202311090217550_addImageFieldUser.cs</DependentUpon>
+    <Compile Include="Migrations\202311120556105_addValidate.cs" />
+    <Compile Include="Migrations\202311120556105_addValidate.designer.cs">
+      <DependentUpon>202311120556105_addValidate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -366,6 +363,10 @@
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\AdminLayoutPage1.cshtml" />
     <Content Include="Areas\Admin\Views\HomeAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Brand\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Brand\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Brand\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Brand\Delete.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\ShoeShop.cshtml" />
@@ -391,14 +392,11 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311021131486_initDb.resx">
-      <DependentUpon>202311021131486_initDb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311120532484_initdb.resx">
+      <DependentUpon>202311120532484_initdb.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311021516580_updateUserModel.resx">
-      <DependentUpon>202311021516580_updateUserModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311090217550_addImageFieldUser.resx">
-      <DependentUpon>202311090217550_addImageFieldUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311120556105_addValidate.resx">
+      <DependentUpon>202311120556105_addValidate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

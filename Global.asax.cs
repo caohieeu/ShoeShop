@@ -17,36 +17,8 @@ namespace ProjectShoeShop
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            CreateRolesAndUser();
-        }
-        public void CreateRolesAndUser()
-        {
-            var db = new ShoeShopDbContext();
-            if(db.Roles.Count() == 0)
-            {
-                List<Role> roles = new List<Role>()
-                {
-                    new Role() {Id=Guid.NewGuid().ToString().Substring(0, 7), Name=utility.Admin},
-                    new Role() {Id=Guid.NewGuid().ToString().Substring(0, 7), Name=utility.Manager},
-                    new Role() {Id=Guid.NewGuid().ToString().Substring(0, 7), Name=utility.Customer},
-                };
-                db.Roles.AddRange(roles);
-                db.SaveChanges();
-            }
             
-            if(db.Users.Count() == 0)
-            {
-                var user = new User()
-                {
-                    UserName = "admin",
-                    Address = "admin@gmail.com",
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"),
-                    RoleId = db.Roles.Where(x => x.Name == utility.Admin).Select(x => x.Id).FirstOrDefault(),
-                    FullName = "admin"
-                };
-                db.Users.Add(user);
-                db.SaveChanges();
-            }
         }
+        
     }
 }

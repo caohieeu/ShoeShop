@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class initDb : DbMigration
+    public partial class initdb : DbMigration
     {
         public override void Up()
         {
@@ -74,7 +74,9 @@
                         Email = c.String(),
                         FullName = c.String(),
                         Address = c.String(),
+                        Birth = c.DateTime(),
                         Phone = c.String(),
+                        ImagePath = c.String(),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Roles", t => t.RoleId)
