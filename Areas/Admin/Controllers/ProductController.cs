@@ -3,6 +3,7 @@ using ProjectShoeShop.Models;
 using ProjectShoeShop.ViewModel;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -44,14 +45,42 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(ProductVM obj)
+        public ActionResult Create(ProductVM obj , HttpPostedFileBase imageFile)
         {
             
-                if (ModelState.IsValid)
+
+            if (ModelState.IsValid)
+            {
+                var product = new Product()
                 {
-                    db.Products.Add(obj.Product);
-                    db.SaveChanges();
+                    Id = obj.Product.Id,
+                    Name = obj.Product.Name,
+                    BrandID = obj.Product.BrandID,
+                    CategoryID = obj.Product.CategoryID,
+                    Description = obj.Product.Description,
+                    Price = obj.Product.Price,
+                    Size = obj.Product.Size,
+                    Stock = obj.Product.Stock
+                };
+                if (imageFile != null && imageFile.ContentLength > 0)
+                {
+                    var imagesFolder = Server.MapPath("~/Assets/images");
+
+                    if (!Directory.Exists(imagesFolder))
+                    {
+                        Directory.CreateDirectory(imagesFolder);
+                    }
+
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+
+                    var filePath = Path.Combine(imagesFolder, fileName);
+                    imageFile.SaveAs(filePath);
+
+                    product.ImageURL = "/Assets/images/" + fileName;
                 }
+                db.Products.Add(product);
+                db.SaveChanges();
+            }
             
             return RedirectToAction("Index");
         }
