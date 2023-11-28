@@ -218,6 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\css\account.css" />
+    <Content Include="Assets\css\admin.css" />
     <Content Include="Assets\images\user.png" />
     <Content Include="Assets\css\ajax-loader.gif" />
     <Content Include="Assets\css\animate.css" />
@@ -309,21 +310,24 @@
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeAdminController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="DAL\ShoeShopDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311120532484_initdb.cs" />
-    <Compile Include="Migrations\202311120532484_initdb.designer.cs">
-      <DependentUpon>202311120532484_initdb.cs</DependentUpon>
+    <Compile Include="Migrations\202311271352155_addRequired.cs" />
+    <Compile Include="Migrations\202311271352155_addRequired.designer.cs">
+      <DependentUpon>202311271352155_addRequired.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311120556105_addValidate.cs" />
-    <Compile Include="Migrations\202311120556105_addValidate.designer.cs">
-      <DependentUpon>202311120556105_addValidate.cs</DependentUpon>
+    <Compile Include="Migrations\202311280939098_addGenderShoeField.cs" />
+    <Compile Include="Migrations\202311280939098_addGenderShoeField.designer.cs">
+      <DependentUpon>202311280939098_addGenderShoeField.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -481,6 +485,11 @@
     <Content Include="Areas\Admin\Views\Product\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\User\ShowUsers.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Detail.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\ShoeShop.cshtml" />
@@ -492,7 +501,13 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\AccountPartialView.cshtml" />
     <Content Include="Views\Contact\ContactUs.cshtml" />
+    <Content Include="Views\About\AboutLayout.cshtml" />
     <Content Include="Views\About\AboutUs.cshtml" />
+    <Content Include="Views\Product\ProductLayout.cshtml" />
+    <Content Include="Views\Product\ShowProduct.cshtml" />
+    <Content Include="Views\Product\DetailProduct.cshtml" />
+    <Content Include="Views\Cart\CartLayout.cshtml" />
+    <Content Include="Views\Cart\ShowCart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -503,16 +518,17 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Assets\images\user\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311120532484_initdb.resx">
-      <DependentUpon>202311120532484_initdb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311271352155_addRequired.resx">
+      <DependentUpon>202311271352155_addRequired.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311120556105_addValidate.resx">
-      <DependentUpon>202311120556105_addValidate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311280939098_addGenderShoeField.resx">
+      <DependentUpon>202311280939098_addGenderShoeField.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

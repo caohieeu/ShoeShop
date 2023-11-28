@@ -13,5 +13,9 @@ namespace ProjectShoeShop.Controllers
         {
             return View();
         }
+        public ActionResult AboutLayout()
+        {
+            return View();
+        }
     }
 }

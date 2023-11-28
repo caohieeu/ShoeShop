@@ -11,6 +11,8 @@ using System.Drawing.Printing;
 using Microsoft.SqlServer.Server;
 using System.Web.WebPages;
 using ProjectShoeShop.Services;
+using System.IO;
+using System.Web.UI;
 
 namespace ProjectShoeShop.Controllers
 {
@@ -27,7 +29,7 @@ namespace ProjectShoeShop.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Register(RegisterVM regis)
+        public ActionResult Register(RegisterVM regis, HttpPostedFileBase ImagePath)
         {
             if (ModelState.IsValid)
             {
@@ -43,6 +45,33 @@ namespace ProjectShoeShop.Controllers
                     user.Address = regis.Address;
                     user.Phone = regis.Phone;
                     user.RoleId = db.Roles.Where(x => x.Name == utility.Customer).Select(x => x.Id).FirstOrDefault();
+
+                    if (ImagePath != null && ImagePath.ContentLength > 0)
+                    {
+                        var imagesFolder = Server.MapPath("~/Assets/images/user");
+
+                        if (!Directory.Exists(imagesFolder))
+                        {
+                            Directory.CreateDirectory(imagesFolder);
+                        }
+
+                        //if(!string.IsNullOrEmpty(chkUser?.ImagePath))
+                        //{
+                        //    var oldImage = Server.MapPath(chkUser.ImagePath);
+                        //    if(System.IO.File.Exists(oldImage))
+                        //    {
+                        //        System.IO.File.Delete(oldImage);
+                        //    }
+                        //}
+
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImagePath.FileName);
+
+                        var filePath = Path.Combine(imagesFolder, fileName);
+                        ImagePath.SaveAs(filePath);
+
+                        user.ImagePath = "/Assets/images/user" + fileName;
+                    }
+
                     db.Users.Add(user);
                     db.SaveChanges();
                     return RedirectToAction("Login", "Account");
