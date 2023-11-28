@@ -7,13 +7,13 @@ namespace ProjectShoeShop.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class initdb : IMigrationMetadata
+    public sealed partial class addRequired : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(initdb));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addRequired));
         
         string IMigrationMetadata.Id
         {
-            get { return "202311120532484_initdb"; }
+            get { return "202311271352155_addRequired"; }
         }
         
         string IMigrationMetadata.Source

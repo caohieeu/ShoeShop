@@ -29,10 +29,12 @@
     @RenderPage("~/Views/Shared/Header.cshtml")
     @RenderPage("~/Views/Shared/Navbar.cshtml")
     @*@RenderPage("~/Views/Shared/Slide.cshtml")*@
+    @RenderSection("about", required: false)
+    @RenderSection("cart", required: false)
     @RenderBody()
     @RenderPage("~/Views/Shared/Footer.cshtml")
 
-     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
 
     <script src="~/Assets/js/jquery.min.js"></script>
     <script src="~/Assets/js/jquery-migrate-3.0.1.min.js"></script>

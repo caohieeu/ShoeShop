@@ -10668,3 +10668,7 @@ textarea.form-control {
 .cta:hover p {
     opacity: 0.5;
 }
+
+.title-page {
+    margin: 20px 0 20px 0;
+}

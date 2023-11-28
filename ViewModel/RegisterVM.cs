@@ -30,8 +30,10 @@ namespace ProjectShoeShop.ViewModel
         [RegularExpression(@"^(0[1-9])+[0-9]*$", ErrorMessage = "Invalid phone number")]
         [MinLength(10, ErrorMessage = "Phone number should contain at least 10 characters")]
         public string Phone { get; set; }
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime? Birth { get; set; }
+        public string ImagePath { get; set; }
         public string Address { get; set; }
 
     }
