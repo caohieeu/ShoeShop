@@ -1,0 +1,28 @@
+﻿@model List<ProjectShoeShop.ViewModel.ReviewVM>
+
+
+    @foreach (var item in Model)
+    {
+        <div class="review">
+            <div class="user-img" style="background-image: url(@item.ImagePath) "></div>
+            <div class="desc">
+                <h4>
+                    <span class="text-left">@item.FullName</span>
+                    <span class="text-right">@item.ReviewDate</span>
+                </h4>
+                <p class="star">
+                    <span>
+                        @for (var i = 1; i <= item.Rating; i++)
+                        {
+                            <i class="ion-ios-star"></i>
+                        }
+                        @for (var i = 1; i<= 5 - item.Rating; i++)
+                        {
+                            <i class="ion-ios-star-outline"></i>
+                        }
+                    </span>
+                </p>
+                <p>@item.Comment</p>
+            </div>
+        </div>
+    }
