@@ -321,13 +321,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202311271352155_addRequired.cs" />
-    <Compile Include="Migrations\202311271352155_addRequired.designer.cs">
-      <DependentUpon>202311271352155_addRequired.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202311280939098_addGenderShoeField.cs" />
-    <Compile Include="Migrations\202311280939098_addGenderShoeField.designer.cs">
-      <DependentUpon>202311280939098_addGenderShoeField.cs</DependentUpon>
+    <Compile Include="Migrations\202311291241579_initDB.cs" />
+    <Compile Include="Migrations\202311291241579_initDB.designer.cs">
+      <DependentUpon>202311291241579_initDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -348,6 +344,7 @@
     <Compile Include="ViewModel\ProductVM.cs" />
     <Compile Include="ViewModel\LoginVM.cs" />
     <Compile Include="ViewModel\RegisterVM.cs" />
+    <Compile Include="ViewModel\ReviewVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -505,9 +502,10 @@
     <Content Include="Views\About\AboutUs.cshtml" />
     <Content Include="Views\Product\ProductLayout.cshtml" />
     <Content Include="Views\Product\ShowProduct.cshtml" />
-    <Content Include="Views\Product\DetailProduct.cshtml" />
     <Content Include="Views\Cart\CartLayout.cshtml" />
     <Content Include="Views\Cart\ShowCart.cshtml" />
+    <Content Include="Views\Product\DetailProduct.cshtml" />
+    <Content Include="Views\Product\ReviewPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -524,11 +522,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202311271352155_addRequired.resx">
-      <DependentUpon>202311271352155_addRequired.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202311280939098_addGenderShoeField.resx">
-      <DependentUpon>202311280939098_addGenderShoeField.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202311291241579_initDB.resx">
+      <DependentUpon>202311291241579_initDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
