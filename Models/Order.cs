@@ -15,12 +15,10 @@ namespace ProjectShoeShop.Models
         public string UserID { get; set; }
         [ForeignKey(nameof(UserID))]
         public User User { get; set; }
-        public int ShippingAddressID { get; set; }
+        public string ShippingAddress { get; set; }
         public string PaymentMethod { get; set; }
         public string OrderStatus { get; set; }
-        public string DiscountID { get; set; }
-        [ForeignKey(nameof(DiscountID))]
-        public Discount Discount { get; set; }
+        public string DeliveryStatus { get; set; }
         public DateTime OrderDate { get; set; }
     }
 }

@@ -59,7 +59,14 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Description)
+            @if (item.Description.Length <= 100)
+            {
+                <p>@item.Description</p>
+            }
+            else
+            {
+                <p>@item.Description.Substring(0, 100)...</p>
+            }
         </td>
         <td>
             <a class="btn btn-warning" href="/Admin/Brand/Edit?Id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |

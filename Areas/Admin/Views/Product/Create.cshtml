@@ -34,7 +34,14 @@
     <div class="form-group">
         @Html.LabelFor(model => model.Size, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.EditorFor(model => model.Size, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.DropDownListFor(model => model.Size, new
+            List<SelectListItem>()
+               {
+                    new SelectListItem() { Text="SMALL", Value="SMALL"},
+                    new SelectListItem() { Text="MEDIUM", Value="MEDIUM"},
+                    new SelectListItem() { Text="LARGE", Value="LARGE"},
+                    new SelectListItem() { Text="EXTRA LARGE", Value="EXTRA LARGE"}
+               }, "Select Size", new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.Size, "", new { @class = "text-danger" })
         </div>
     </div>
@@ -67,9 +74,9 @@
         <div class="col-md-10">
             @Html.DropDownListFor(model => model.GenderShoe, new
            List<SelectListItem>() {
-            new SelectListItem() { Text="male", Value="male"},
-            new SelectListItem() { Text="female", Value="female"}
-            }, "--- Select Gender ---",  new { @class = "form-control border-0 shadow" })
+            new SelectListItem() { Text="Male", Value="male"},
+            new SelectListItem() { Text="Female", Value="female"}
+            }, "Select Gender",  new { @class = "form-control" })
         </div>
     </div>
     <div class="form-group">
@@ -77,7 +84,7 @@
         <div class="col-md-10">
             @Html.DropDownListFor(model => model.CategoryID,
                 new SelectList(ViewBag.Categories, "Id", "Name"),
-                "--- Select Category ---", new { @class = "form-control border-0 shadow" })
+                "Select Category", new { @class = "form-control" })
         </div>
     </div>
 
@@ -86,7 +93,7 @@
         <div class="col-md-10">
             @Html.DropDownListFor(model => model.BrandID, 
                 new SelectList(ViewBag.Brands, "Id", "Name"),
-                "--- Select Brand ---", new { @class = "form-control border-0 shadow" })
+                "Select Brand", new { @class = "form-control" })
         </div>
     </div>
 

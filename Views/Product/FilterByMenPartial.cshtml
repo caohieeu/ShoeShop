@@ -1,0 +1,12 @@
+﻿@model List<ProjectShoeShop.Models.Category>
+
+<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+    <div class="panel-body">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="/Product/ProductByMenCategory?id=@item.Id">@item.Name</a></li>
+            }
+        </ul>
+    </div>
+</div>

@@ -98,7 +98,7 @@ else
     <th>Image</th>
     <th>Category</th>
     <th>Brand</th>
-    <th>Action</th>
+    <th colspan="2">Action</th>
 </tr>
 
         foreach (var item in Model)
@@ -108,7 +108,14 @@ else
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Name)
+                    @if (item.Name.Length <= 30)
+                    {
+                        <a href="/admin/Product/DetailProduct?id=@item.Id">@item.Name</a>
+                    }
+                    else
+                    {
+                        <a href="/admin/Product/DetailProduct?id=@item.Id">@item.Name.Substring(0, 30)</a>
+                    }
                 </td>
                 @if (item.Description.Length <= 15)
                 {
@@ -141,7 +148,10 @@ else
                     @Html.DisplayFor(modelItem => item.Brand.Name)
                 </td>
                 <td>
-                    <a class="btn btn-warning" href="/Admin/Product/Edit?id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |
+                    <a class="btn btn-warning" href="/Admin/Product/Edit?id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a>
+                    
+                </td>
+                <td>
                     <a class="btn btn-danger" href="/Admin/Product/Delete?id=@item.Id"><i style="color: black" class="fa-solid fa-trash"></i></a>
                 </td>
             </tr>

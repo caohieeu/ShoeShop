@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.Mvc;
 using ProjectShoeShop.DAL;
@@ -18,13 +20,26 @@ namespace ProjectShoeShop.Controllers
         {
             return View();
         }
-        public ActionResult ShowProduct()
+        public ActionResult ShowProduct(int MinRange = 0, int MaxRange = 100000000)   
         {
-            return View();
+            var listProduct = db.Products.Include(nameof(Product.Brand))
+                                         .Include(nameof(Product.Category))
+                                         .Take(10).ToList();
+            listProduct = listProduct.Where(x => x.Price >= MinRange && x.Price <= MaxRange).ToList();
+            ViewBag.MinRange = MinRange;
+            ViewBag.MaxRange = MaxRange;
+            if (listProduct != null)
+            {
+                return View(listProduct);
+            }
+            else
+            {
+                return HttpNotFound();
+            }
         }
-        public ActionResult DetailProduct(string id)
+        public ActionResult DetailProduct(string id, string ProductName)
         {
-            var lst = db.Products.Where(t=>t.Id == id).Include(nameof(Product.Brand)).FirstOrDefault();
+            var lst = db.Products.Where(t=>t.Name == ProductName).Include(nameof(Product.Brand)).FirstOrDefault();
             ViewBag.CountReviews = CountRating(id);
             ViewBag.FiveStarReviews = CountFiveRating(id);
             ViewBag.FourStarReviews = CountFourRating(id);
@@ -33,7 +48,82 @@ namespace ProjectShoeShop.Controllers
             ViewBag.OneStarReviews = CountOneRating(id);
             ViewBag.AvgReviews = AVGRating(id);
             ViewBag.GetProductRanking = GetProductRanking(id);
+            ViewBag.StockSizeSmall = db.Products.Where(x => x.Id == id && x.Size == "SMALL").Select(x => x.Stock).FirstOrDefault();
             return View(lst);
+        }
+        public ActionResult FilterByMenPartial()
+        {
+            var listCategories = db.Categories.ToList();
+            try
+            {
+                return View(listCategories);
+            }
+            catch
+            {
+                return View();
+            }
+        }
+        public ActionResult FilterByWomenPartial()
+        {
+            var listCategories = db.Categories.ToList();
+            try
+            {
+                return View(listCategories);
+            }
+            catch
+            {
+                return View();
+            }
+        }
+        public ActionResult ProductByMenCategory(string id, int MinRange = 0, int MaxRange = 100000000)
+        {
+            try
+            {
+                List<Product> listProducts = db.Products
+                                            .Include(nameof(Product.Category))
+                                            .Where(x => x.CategoryID == id && x.GenderShoe=="male").ToList();
+                if(listProducts != null)
+                {
+                    listProducts = listProducts.Where(x => x.Price >= MinRange && x.Price <= MaxRange).ToList();
+                    ViewBag.MinRange = MinRange;
+                    ViewBag.MaxRange = MaxRange;
+                    return View(listProducts);
+                }
+                return View();
+            }
+            catch
+            {
+                return HttpNotFound();
+            }
+        }
+        public ActionResult ProductByWomenCategory(string id, int MinRange = 0, int MaxRange = 100000000)
+        {
+            try
+            {
+                List<Product> listProducts = db.Products
+                                            .Include(nameof(Product.Category))
+                                            .Where(x => x.CategoryID == id && x.GenderShoe == "female").ToList();
+                if (listProducts != null)
+                {
+                    listProducts = listProducts.Where(x => x.Price >= MinRange && x.Price <= MaxRange).ToList();
+                    ViewBag.MinRange = MinRange;
+                    ViewBag.MaxRange = MaxRange;
+                    return View(listProducts);
+                }
+                return View();
+            }
+            catch
+            {
+                return HttpNotFound();
+            }
+        }
+        public int GetStockBySize(string Size, string ProductName)
+        {
+            int stock = 0;
+            stock = db.Products
+                        .Where(x => x.Name == ProductName && x.Size == Size)
+                        .Select(x => x.Stock).FirstOrDefault();
+            return stock;
         }
         public ActionResult ReviewPartial(string productID)
         {
@@ -94,27 +184,34 @@ namespace ProjectShoeShop.Controllers
             {
                 return (int)ratings.Average();
             }
-            return 5;
+            return 0;
         }
         public int GetProductRanking(string productId)
         {
-            var productRating = db.Reviews
+            try
+            {
+                var productRating = db.Reviews
                 .Where(r => r.ProductId == productId)
                 .Average(r => r.Rating);
 
-            var productRankings = db.Reviews
-                .GroupBy(r => r.ProductId)
-                .Select(grp => new
-                {
-                    ProductId = grp.Key,
-                    AverageRating = grp.Average(r => r.Rating)
-                })
-                .OrderByDescending(x => x.AverageRating)
-                .ToList();
+                var productRankings = db.Reviews
+                    .GroupBy(r => r.ProductId)
+                    .Select(grp => new
+                    {
+                        ProductId = grp.Key,
+                        AverageRating = grp.Average(r => r.Rating)
+                    })
+                    .OrderByDescending(x => x.AverageRating)
+                    .ToList();
 
-            var ranking = productRankings.FindIndex(x => x.ProductId == productId) + 1;
+                var ranking = productRankings.FindIndex(x => x.ProductId == productId) + 1;
 
-            return ranking;
+                return ranking;
+            }
+            catch
+            {
+                return 0;
+            }
         }
 
     }

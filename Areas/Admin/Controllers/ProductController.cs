@@ -4,6 +4,7 @@ using ProjectShoeShop.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -113,7 +114,7 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
 
         public ActionResult Create()
         {
-            ViewBag.Categories = db.Categories.ToList(); 
+            ViewBag.Categories = db.Categories.ToList();
             ViewBag.Brands = db.Brands.ToList();
             return View();
         }
@@ -165,7 +166,59 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
                 return View();
             }
         }
+        public ActionResult CreateNewSize(string id)
+        {
+            ProductVM product = db.Products
+                     .Where(pro => pro.Id == id)
+                     .Select(pro => new ProductVM()
+                     {
+                         Id = pro.Id,
+                         Name = pro.Name,
+                         Description = pro.Description,
+                         Size = pro.Size,
+                         Price = pro.Price,
+                         Stock = pro.Stock,
+                         GenderShoe = pro.GenderShoe,
+                         ImageURL = pro.ImageURL,
+                         CategoryID = pro.CategoryID,
+                         BrandID = pro.BrandID,
+                     }).FirstOrDefault();
 
+            ViewBag.Categories = db.Categories.ToList();
+            ViewBag.Brands = db.Brands.ToList();
+            ViewBag.IdProduct = product.Id;
+            if (product != null)
+            {
+                return View(product);
+            }
+            return View(product);
+        }
+        [HttpPost]
+        public ActionResult CreateNewSize(string id, ProductVM obj)
+        {
+            var existingProduct = db.Products.FirstOrDefault(x => x.Id == id);
+            var product = new Product()
+            {
+                Id = Guid.NewGuid().ToString().Substring(0, 7),
+                Name = existingProduct.Name,
+                BrandID = existingProduct.BrandID,
+                CategoryID = existingProduct.CategoryID,
+                Description = existingProduct.Description,
+                Price = Decimal.Parse(obj.Price.ToString()),
+                Size = obj.Size,
+                Stock = obj.Stock,
+                GenderShoe = existingProduct.GenderShoe,
+                DateCreated = DateTime.Now,
+                DatePurchase = null,
+                ImageURL = existingProduct.ImageURL
+            };
+            db.Products.Add(product);
+            db.SaveChanges();
+
+            ViewBag.Categories = db.Categories.ToList();
+            ViewBag.Brands = db.Brands.ToList();
+            return RedirectToAction("Index");
+        }
         public ActionResult Edit(string id)
         {
             ProductVM product = db.Products
@@ -179,14 +232,13 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
                          Price = pro.Price,
                          Stock = pro.Stock,
                          GenderShoe = pro.GenderShoe,
-                         //ImageURL = pro.ImageURL,
+                         ImageURL = pro.ImageURL,
                          CategoryID = pro.CategoryID,
                          BrandID = pro.BrandID,
                      }).FirstOrDefault();
 
             ViewBag.Categories = db.Categories.ToList();
             ViewBag.Brands = db.Brands.ToList();
-            //ViewBag.CurrentImg = product.ImageURL;
             ViewBag.IdProduct = product.Id;
             if (product != null)
             {
@@ -211,6 +263,7 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
                     existingProduct.Price = obj.Price;
                     existingProduct.Stock = obj.Stock;
                     existingProduct.GenderShoe = obj.GenderShoe;
+                    existingProduct.Size = obj.Size;
                     existingProduct.BrandID = obj.BrandID;
                     existingProduct.CategoryID = obj.CategoryID;
                     existingProduct.DateCreated = DateTime.Now;
@@ -246,7 +299,7 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
             }
             ViewBag.Categories = db.Categories.ToList();
             ViewBag.Brands = db.Brands.ToList();
-            return View();
+            return View(obj);
         }
 
         public ActionResult Delete(string id)
@@ -274,6 +327,29 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
         {
             List<Category> listCategories = db.Categories.ToList();
             return PartialView(listCategories);
+        }
+        public ActionResult DetailProduct(string id)
+        {
+            Product pro = db.Products.Where(x => x.Id == id).FirstOrDefault();
+            if(pro != null)
+            {
+                string Brand = db.Brands.Where(x => x.Id == pro.BrandID).Select(x => x.Name).FirstOrDefault().ToString();
+                string Category = db.Categories.Where(x => x.Id == pro.CategoryID).Select(x => x.Name).FirstOrDefault().ToString();
+                ViewBag.Brand = Brand;
+                ViewBag.Category = Category;
+                return View(pro);
+            }
+            return HttpNotFound();
+        }
+        public List<string> GetAvailableSizes(string ProductName)
+        {
+            List<string> lstSize = new List<string> { "SMALL", "MEDIUM", "LARGE", "EXTRA LARGE" };
+            List<Product> lstPro = db.Products.Where(x => x.Name == ProductName).ToList();
+            foreach(var item in lstPro)
+            {
+                lstSize.Remove(item.Size);
+            }
+            return lstSize;
         }
     }
 }
