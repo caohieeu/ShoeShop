@@ -11,7 +11,11 @@ namespace ProjectShoeShop.Models
     {
         [Key]
         public string Id { get; set; }
+
         public string Code { get; set; }
+        public string ProductId { get; set; }
+        [ForeignKey(nameof(ProductId))]
+        public Product Product { get; set; }
         public decimal DiscountPercentage { get; set; }
         public DateTime? StartDate { get; set; }    
         public DateTime? EndDate { get; set; }

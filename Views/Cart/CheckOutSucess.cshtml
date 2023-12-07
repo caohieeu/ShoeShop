@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "CheckOutSucess";
+    Layout = "~/Views/Cart/CheckOutLayout.cshtml";
+}
+
+<div style="display: flex; align-items: center; flex-direction: column" class="my-5">
+    <i class="fa-solid fa-circle-check" style="color: forestgreen; font-size: 60px"></i>
+    <h2 style="font-weight: 700">
+        Payment success
+    </h2>
+    <h4>Thank you for purchasing our products</h4>
+    <div class="my-4">
+        <ul>
+            <li>Code Order: <b>@ViewBag.OrderId</b></li>
+            <li>Total Cost: <b>$@ViewBag.TotalMoney</b></li>
+            <li>Date time: <b>@DateTime.Now</b></li>
+        </ul>
+    </div>
+</div>

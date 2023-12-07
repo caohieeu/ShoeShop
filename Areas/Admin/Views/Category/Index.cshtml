@@ -63,7 +63,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
-                @if (item.Description.Length <= 20)
+                @if (item.Description.Length <= 70)
                 {
 
                     <td>
@@ -73,7 +73,7 @@
                 else
                 {
                     <td>
-                        @item.Description.Substring(0, 20)...
+                        @item.Description.Substring(0, 70)...
                     </td>
                 }
                 <td width="27%">

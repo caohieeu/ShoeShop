@@ -13,6 +13,7 @@ using System.Web.WebPages;
 using ProjectShoeShop.Services;
 using System.IO;
 using System.Web.UI;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace ProjectShoeShop.Controllers
 {
@@ -116,6 +117,77 @@ namespace ProjectShoeShop.Controllers
         {
             Session.Remove("User");
             return RedirectToAction("Index", "Home");
+        }
+        public ActionResult Information()
+        {
+            try
+            {
+                User user = (User)Session["User"];
+                RegisterVM inforUser = new RegisterVM()
+                {
+                    FullName = user.FullName,
+                    UserName = user.UserName,
+                    Password = user.PasswordHash,
+                    Email = user.Email,
+                    Phone = user.Phone,
+                    Birth = user.Birth,
+                    ImagePath = user.ImagePath,
+                    Address = user.Address,
+                };
+                if (inforUser != null)
+                {
+                    return View(inforUser);
+                }
+                else
+                {
+                    return RedirectToAction("Login", "Account");
+                }
+            }
+            catch
+            {
+                return HttpNotFound();   
+            }
+        }
+        public ActionResult Ordered()
+        {
+            try
+            {
+                User user = (User)Session["User"];
+                if (user != null)
+                {
+                    List<OrderVM> order = db.Orders
+                        .Where(x => x.UserID == user.Id)
+                        .Select(x => new OrderVM
+                        {
+                            OrderId = x.Id,
+                            ImageProduct = db.OrderDetails
+                                            .Where(m => m.OrderId == x.Id)
+                                            .Select(m => m.Product.ImageURL).FirstOrDefault(),
+                            NameProduct = db.OrderDetails
+                                            .Where(m => m.OrderId==x.Id)
+                                            .Select(m => m.Product.Name).FirstOrDefault(),
+                            QuantityProduct = db.OrderDetails
+                                                .Where(m => m.OrderId == x.Id)
+                                                .Sum(m => m.Quantity),
+                            TotalAmount = db.OrderDetails
+                                                .Where(m => m.OrderId == x.Id)
+                                                .Sum(m => m.Price),
+                        }).ToList();
+                    return View(order);
+                }
+                else
+                {
+                    return RedirectToAction("Login", "Account");
+                }
+            }
+            catch
+            {
+                return HttpNotFound();
+            }
+        }
+        public ActionResult ConfirmReceived()
+        {
+            return View();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace ProjectShoeShop.Models
     public class Cart
     {
         [Key]
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string UserID { get; set; }
         [ForeignKey(nameof(UserID))]
         public User User { get; set; }

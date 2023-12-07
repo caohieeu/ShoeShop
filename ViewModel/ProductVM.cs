@@ -26,7 +26,6 @@ namespace ProjectShoeShop.ViewModel
         [Range(0, double.MaxValue, ErrorMessage = "Price should be greater than or equal to 0")]
         public decimal Price { get; set; }
         public int Stock { get; set; }
-        [Required(ErrorMessage = "File img is required")]
         public string ImageURL { get; set; }
         [Required(ErrorMessage = "Gender field is required")]
         public string GenderShoe { get; set; }
