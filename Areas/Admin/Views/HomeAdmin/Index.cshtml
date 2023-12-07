@@ -3,6 +3,275 @@
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
 }
+<script src="~/Assets/js/circle-progress.min.js"></script>
+<script src="~/Assets/js/custom.min.js"></script>
+<script src="~/Assets/js/dashboard-1.js"></script>
+<script src="~/Assets/js/gauge.min.js"></script>
+<script src="~/Assets/js/global.min.js"></script>
+<script src="~/Assets/js/jquery.counterup.min.js"></script>
+<script src="~/Assets/js/jquery.flot.js"></script>
+<script src="~/Assets/js/jquery.flot.resize.js"></script>
+<script src="~/Assets/js/quixnav-init.js"></script>
+<script src="~/Assets/js/raphael.min.js"></script>
+<script src="~/Assets/js/morris.min.js"></script>
+<link href="~/Assets/fonts/ionicons/css/themify-icons.css" rel="stylesheet" />
 
-<h2>Index</h2>
+<div class="container-fluid">
+    <div class="row" style="margin:20px 0px">
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="stat-widget-two card-body row">
+                    <div class="stat-content col-8">
+                        <div class="stat-text">Total Income </div>
+                        <div class="stat-digit"> <i class="fa fa-usd"></i>8500</div>
+                    </div>
+                    <div class="col-4">
+                        icon
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="stat-widget-two card-body row">
+                    <div class="stat-content col-8">
+                        <div class="stat-text">Users</div>
+                        <div class="stat-digit"> <i class="fa fa-usd"></i>7800</div>
+                    </div>
+                    <div class="col-4">
+                        icon
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="stat-widget-two card-body row">
+                    <div class="stat-content col-8">
+                        <div class="stat-text">Số sản phẩm đã bán</div>
+                        <div class="stat-digit"> <i class="fa fa-usd"></i> 500</div>
+                    </div>
+                    <div class="col-4">
+                        icon
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="stat-widget-two card-body row">
+                    <div class="stat-content col-8">
+                        <div class="stat-text"></div>
+                        <div class="stat-digit"> <i class="fa fa-usd"></i>650</div>
+                    </div>
+                    <div class="col-4">
+                       icon
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-8 col-lg-8 col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">New Orders</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Product</th>
+                                    <th>quantity</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
 
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <div class="m-t-10">
+                        <h4 class="card-title">Customer Feedback</h4>
+                        <h2 class="mt-3">@ViewBag.CountComment</h2>
+                    </div>
+                    <div class="widget-card-circle mt-5 mb-5" id="info-circle-card">
+                        <img src="~/Assets/images/Feedback.png"  width="50%" height="=50%"/>
+                    </div>
+                    <ul class="widget-line-list m-b-15" style="list-style-type:none; padding-right:30px">
+                        <li class="border-right">@ViewBag.CountPositive% <br><span class="text-success"><i class="ti-hand-point-up"></i> Positive</span></li>
+                        <li>@ViewBag.CountNegative% <br><span class="text-danger"><i class="ti-hand-point-down"></i>Negative</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Top User</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Order Number   @ViewBag.TotalOrder</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>lew Shawon</td>
+                                    <td><span>Dell-985</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-success">Done</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="round-img">
+                                            <a href=""><img width="35" src="./images/avatar/1.png" alt=""></a>
+                                        </div>
+                                    </td>
+                                    <td>Lew Shawon</td>
+                                    <td><span>Asus-565</span></td>
+                                    <td><span>456 pcs</span></td>
+                                    <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

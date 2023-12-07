@@ -14,7 +14,7 @@ namespace ProjectShoeShop.Models
         public string Id { get; set; }
         public string OrderId { get; set; }
         [ForeignKey(nameof(OrderId))]
-        public Order Oder { get; set; }
+        public Order Order { get; set; }
         public string ProductId { get; set; }
         [ForeignKey(nameof(ProductId))]
         public Product Product { get; set; }
