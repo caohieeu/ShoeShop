@@ -70,7 +70,7 @@ namespace ProjectShoeShop.Controllers
                         var filePath = Path.Combine(imagesFolder, fileName);
                         ImagePath.SaveAs(filePath);
 
-                        user.ImagePath = "/Assets/images/user" + fileName;
+                        user.ImagePath = "/Assets/images/user/" + fileName;
                     }
 
                     db.Users.Add(user);
