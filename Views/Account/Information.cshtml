@@ -97,53 +97,65 @@
 </head>
 <body>
     <div class="container-xl px-4 mt-4">
-        
+        <a style="text-decoration: none" href="/Home/Index"><i class="fa-solid fa-arrow-left-long" style="font-size: 30px"></i></a>
         <nav class="nav nav-borders">
             <a class="nav-link active ms-0" href="/Account/Information">Profile</a>
             <a class="nav-link" href="/Account/Ordered">Ordered</a>
         </nav>
         <hr class="mt-0 mb-4">
-        <div class="row">
-            <div class="col-xl-4">
-                <div class="card mb-4 mb-xl-0">
-                    <div class="card-header">Profile Picture</div>
-                    <div class="card-body text-center">
+        @using (Html.BeginForm("Information", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card mb-4 mb-xl-0">
+                        <div class="card-header">Profile Picture</div>
+                        <div class="card-body text-center">
 
-                        @if (Model.ImagePath != null)
-                        {
-                            <img class="img-account-profile rounded-circle mb-2" src="@Model.ImagePath" alt="Avatar Image">
-                        }
-                        else
-                        {
-                            <img class="img-account-profile rounded-circle mb-2" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Avatar Image">
-                        }
-                        <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
-
-                        <button class="btn btn-primary" type="button">Upload new image</button>
+                            @if (ViewBag.currentImg != null)
+                            {
+                                <img id="image-preview" class="img-account-profile rounded-circle mb-2" src="@ViewBag.currentImg" alt="avatar image">
+                            }
+                            else
+                            {
+                                <img id="image-preview" class="img-account-profile rounded-circle mb-2" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar image">
+                            }
+                            @Html.ValidationMessageFor(model => model.ImagePath, "", new { @class = "text-danger" })
+                            <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+                            @if (ViewBag.currentImg != null)
+                            {
+                                @Html.TextBoxFor(model => model.ImagePath, new { @class = "btn", value = ViewBag.currentImg, type = "file", onchange = "previewImage(event)" })
+                            }
+                            else
+                            {
+                                @Html.TextBoxFor(model => model.ImagePath, new { @class = "btn", type = "file", onchange = "previewImage(event)" })
+                            }
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-8">
+                <div class="col-xl-8">
+                    @Html.AntiForgeryToken()
 
-                <div class="card mb-4">
-                    <div class="card-header">Account Details</div>
-                    <div class="card-body">
-                        <form>
-
+                    <div class="card mb-4">
+                        <div class="card-header">Account Details</div>
+                        <div class="card-body">
+                            <p class="text-danger">@ViewBag.Message</p>
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                             <div class="mb-3">
-                                <label class="small mb-1" for="inputUsername">Username (how your name will appear to other users on the site)</label>
-                                <input class="form-control" id="inputUsername" type="text" placeholder="Enter your username" value="@Model.UserName">
+                                <label class="small mb-1" for="UserName">Username (how your name will appear to other users on the site)</label>
+                                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control small mb-1", placeholder = "Enter your username" } })
+                                @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
                             </div>
 
                             <div class="row gx-3 mb-3">
-
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputFullName">Full name</label>
-                                    <input class="form-control" id="inputFullName" type="text" placeholder="Enter your full name" value="@Model.FullName">
+                                    <label class="small mb-1" for="FullName">Full name</label>
+                                    @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your full name" } })
+                                    @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputPassword">Password</label>
+                                    <label class="small mb-1" for="Password">Password</label>
                                     <input class="form-control" type="password" name="Password" value="@Model.Password" disabled: disabled />
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
                                     <a style="text-decoration: none" href="#">Change password</a>
                                 </div>
                             </div>
@@ -151,38 +163,59 @@
                             <div class="row gx-3 mb-3">
 
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputEmailAddress">Email address</label>
-                                    <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="@Model.Email">
+                                    <label class="small mb-1" for="Email">Email address</label>
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your email address" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputLocation">Address</label>
-                                    <input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" value="@Model.Address">
+                                    <label class="small mb-1" for="Address">Address</label>
+                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Address" } })
+                                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
                                 </div>
                             </div>
 
                             <div class="row gx-3 mb-3">
 
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputPhone">Phone number</label>
-                                    <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" value="@Model.Phone">
+                                    <label class="small mb-1" for="Phone">Phone number</label>
+                                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your phone number" } })
+                                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="small mb-1" for="inputBirthday">Birthday</label>
-                                    <input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" value="@Model.Birth">
+                                    <label class="small mb-1" for="Birth">Birthday</label>
+                                    @Html.TextBoxFor(m => m.Birth, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", placeholder = "Enter your birthday" })
+                                    @Html.ValidationMessageFor(model => model.Birth, "", new { @class = "text-danger" })
                                 </div>
-                            </div>
 
-                            <button class="btn btn-primary" type="button">Save changes</button>
-                        </form>
+                                <input type="password" style="visibility: hidden" name="ConfirmPassword" value="@Model.Password" />
+                            </div>
+                            <button class="btn btn-primary" type="submit">Save changes</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        }
     </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function previewImage(event) {
+            const input = event.target;
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const imagePreview = document.getElementById('image-preview');
+                    imagePreview.src = e.target.result;
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
     <script type="text/javascript">
 
     </script>

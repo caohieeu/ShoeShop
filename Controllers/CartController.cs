@@ -215,6 +215,8 @@ namespace ProjectShoeShop.Controllers
                     Quantity = item.Quantity,
                     Price = item.Price,
                 };
+                Product product = db.Products.Where(x => x.Id == orderDetail.ProductId).FirstOrDefault();
+                product.Stock = product.Stock - orderDetail.Quantity;
                 db.OrderDetails.Add(orderDetail);
                 db.SaveChanges();
             }
