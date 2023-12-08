@@ -6,6 +6,13 @@
 }
 <section class="ftco-section bg-light">
     <div class="container">
+        <form action="/Contact/SendEmail" method="post" class="bg-white p-5 contact-form">
+            <div class="form-group" style="display: flex;">
+                <input type="text" name="Name" class="form-control w-25" placeholder="Your Name">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+            <div style="clear: both"></div>
+        </form>
         <div class="row">
             <div class="col-md-8 col-lg-10 order-md-last">
                 <div class="row">
@@ -15,7 +22,7 @@
                         {
                             ProjectShoeShop.Controllers.ProductController p = new ProjectShoeShop.Controllers.ProductController();
                             int rating = p.AVGRating(item.Id);
-                                
+
                             <div class="col-sm-12 col-md-12 col-lg-4 d-flex fadeInUp">
                                 <div class="product d-flex flex-column">
                                     <a href="/Product/DetailProduct?id=@item.Id&ProductName=@item.Name" class="img-prod">

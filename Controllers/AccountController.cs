@@ -122,7 +122,8 @@ namespace ProjectShoeShop.Controllers
         {
             try
             {
-                User user = (User)Session["User"];
+                User u = (User)Session["User"];
+                User user = db.Users.Where(x => x.Id == u.Id).FirstOrDefault();
                 RegisterVM inforUser = new RegisterVM()
                 {
                     FullName = user.FullName,
@@ -136,6 +137,7 @@ namespace ProjectShoeShop.Controllers
                 };
                 if (inforUser != null)
                 {
+                    ViewBag.currentImg = user.ImagePath;
                     return View(inforUser);
                 }
                 else
@@ -147,6 +149,59 @@ namespace ProjectShoeShop.Controllers
             {
                 return HttpNotFound();   
             }
+        }
+        [HttpPost]
+        public ActionResult Information(RegisterVM regis, HttpPostedFileBase ImagePath)
+        {
+            regis.Password = regis.ConfirmPassword;
+            if (!ModelState.IsValid)
+            {
+                User u = (User)Session["User"];
+                User user = db.Users.Where(x => x.Id == u.Id).FirstOrDefault();
+                if (user != null && !db.Users.Where(m => m.Id != user.Id).Any(m => m.UserName == regis.UserName))
+                {
+                    user.UserName = regis.UserName;
+                    user.FullName = regis.FullName;
+                    user.Email = regis.Email;
+                    user.Birth = regis.Birth;
+                    user.Address = regis.Address;
+                    user.Phone = regis.Phone;
+
+                    if (ImagePath != null && ImagePath.ContentLength > 0)
+                    {
+                        if (!string.IsNullOrEmpty(user.ImagePath))
+                        {
+                            var oldImagePath = Server.MapPath(user.ImagePath);
+                            if (System.IO.File.Exists(oldImagePath))
+                            {
+                                System.IO.File.Delete(oldImagePath);
+                            }
+                        }
+
+                        var imagesFolder = Server.MapPath("~/Assets/images/user");
+
+                        if (!Directory.Exists(imagesFolder))
+                        {
+                            Directory.CreateDirectory(imagesFolder);
+                        }
+
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImagePath.FileName);
+
+                        var filePath = Path.Combine(imagesFolder, fileName);
+                        ImagePath.SaveAs(filePath);
+
+                        user.ImagePath = "/Assets/images/user/" + fileName;
+                    }
+                    db.SaveChanges();
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ViewBag.Message = "Username đã tồn tại !";
+                    return View();
+                }
+            }
+            return View();
         }
         public ActionResult Ordered()
         {
@@ -160,6 +215,9 @@ namespace ProjectShoeShop.Controllers
                         .Select(x => new OrderVM
                         {
                             OrderId = x.Id,
+                            ProductId = db.OrderDetails
+                                            .Where(m => m.OrderId == x.Id)
+                                            .Select(m => m.Product.Id).FirstOrDefault(),
                             ImageProduct = db.OrderDetails
                                             .Where(m => m.OrderId == x.Id)
                                             .Select(m => m.Product.ImageURL).FirstOrDefault(),
@@ -169,6 +227,7 @@ namespace ProjectShoeShop.Controllers
                             QuantityProduct = db.OrderDetails
                                                 .Where(m => m.OrderId == x.Id)
                                                 .Sum(m => m.Quantity),
+                            DeliveryStatus = x.DeliveryStatus,
                             TotalAmount = db.OrderDetails
                                                 .Where(m => m.OrderId == x.Id)
                                                 .Sum(m => m.Price),
@@ -185,9 +244,83 @@ namespace ProjectShoeShop.Controllers
                 return HttpNotFound();
             }
         }
-        public ActionResult ConfirmReceived()
+        public ActionResult ConfirmReceived(string OrderId)
         {
+            try
+            {
+                Order order = db.Orders.Where(x => x.Id == OrderId).FirstOrDefault();
+                if(order != null)
+                {
+                    order.DeliveryStatus = "Success";
+                    ViewBag.OrderId = OrderId;
+                    db.SaveChanges();
+                    return View();
+                }
+                else
+                {
+                    return RedirectToAction("Ordered");
+                }
+            }
+            catch
+            {
+                return HttpNotFound();
+            }
+        }
+        public ActionResult ReviewPartial(string productID)
+        {
+            var lst = db.Reviews.Include(nameof(Review.User))
+                    .Include(nameof(Review.Product)).Where(t => t.ProductId == productID)
+                    .Select(t => new ReviewVM
+                    {
+                        FullName = t.User.FullName,
+                        ImagePath = t.User.ImagePath,
+                        Comment = t.Comment,
+                        Rating = t.Rating,
+                        ReviewDate = t.ReviewDate
+                    })
+                    .ToList();
+            if (lst != null)
+            {
+                return PartialView(lst);
+            }
+            else
+            {
+                return HttpNotFound();
+            }
+        }
+        public ActionResult ReviewProduct(string OrderId)
+        {
+            string ProductId = db.OrderDetails
+                                .Where(x => x.OrderId == OrderId)
+                                .Select(x => x.Product.Id).FirstOrDefault();
+            ViewBag.ProductId = ProductId;
+            ViewBag.OrderId = OrderId;
             return View();
         }
+        [HttpPost]
+        public ActionResult ReviewProduct(FormCollection f, string ProductId, string OrderId)
+        {
+            User user = (User)Session["User"];
+            Review review = new Review()
+            {
+                Id = Guid.NewGuid().ToString().Substring(0, 7),
+                ProductId = ProductId,
+                UserId = user.Id,
+                Rating = int.Parse(f["Rating"]),
+                Comment = f["Comment"].ToString(),
+                ReviewDate = DateTime.Now
+            };
+            Order order = db.Orders.Where(x => x.Id == OrderId).FirstOrDefault();
+            order.DeliveryStatus = "Reviewed";
+            db.SaveChanges();
+
+            db.Reviews.Add(review);
+            db.SaveChanges();
+            return RedirectToAction("Ordered", "Account");
+        }
+        //public ActionResult ReviewProductSuccess()
+        //{
+
+        //}
     }
 }
