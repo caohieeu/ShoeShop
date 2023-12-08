@@ -1,0 +1,18 @@
+﻿@model List<ProjectShoeShop.ViewModel.ReviewVM>
+
+@foreach (var item in Model)
+{
+    <div class="item">
+        <div class="testimony-wrap">
+            <div class="user-img mb-4" style="background-image: url(@item.ImagePath)">
+                <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                </span>
+            </div>
+            <div class="text">
+                <p class="mb-4 pl-4 line">@item.Comment</p>
+                <p class="name">@item.FullName</p>
+            </div>
+        </div>
+    </div>
+}
