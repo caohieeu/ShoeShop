@@ -34,7 +34,14 @@
 
                                     <td class="product-name">
                                         <h3>@item.ProductName</h3>
-                                        <p>@item.ProductDescription.Substring(0, 50)</p>
+                                        @if (item.ProductDescription.Length >= 50)
+                                        {
+                                            <p>@item.ProductDescription.Substring(0, 50)</p>
+                                        }
+                                        else
+                                        {
+                                    <p>@item.ProductDescription</p>
+                                        }
                                     </td>
 
                                     <form action="/Cart/UpdateCart?ProductId=@item.Id" method="post">

@@ -247,6 +247,11 @@
   <ItemGroup>
     <Content Include="Assets\css\account.css" />
     <Content Include="Assets\css\admin.css" />
+    <Content Include="Assets\images\Feedback.png" />
+    <Content Include="Assets\images\icon1.png" />
+    <Content Include="Assets\images\icon2.jpg" />
+    <Content Include="Assets\images\icon3.jpg" />
+    <Content Include="Assets\images\icon4.jpg" />
     <Content Include="Assets\images\user.png" />
     <Content Include="Assets\css\ajax-loader.gif" />
     <Content Include="Assets\css\animate.css" />
@@ -351,6 +356,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202312081518149_init.cs" />
+    <Compile Include="Migrations\202312081518149_init.designer.cs">
+      <DependentUpon>202312081518149_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\Cart.cs" />
@@ -374,6 +383,7 @@
     <Compile Include="ViewModel\OrderVM.cs" />
     <Compile Include="ViewModel\ProductVM.cs" />
     <Compile Include="ViewModel\LoginVM.cs" />
+    <Compile Include="ViewModel\RankUserVM.cs" />
     <Compile Include="ViewModel\RegisterVM.cs" />
     <Compile Include="ViewModel\ReviewVM.cs" />
   </ItemGroup>
@@ -520,6 +530,7 @@
     <Content Include="Areas\Admin\Views\User\Detail.cshtml" />
     <Content Include="Areas\Admin\Views\Product\DetailProduct.cshtml" />
     <Content Include="Areas\Admin\Views\Product\CreateNewSize.cshtml" />
+    <Content Include="Areas\Admin\Views\HomeAdmin\TopUser.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\ShoeShop.cshtml" />
@@ -556,6 +567,8 @@
     <Content Include="Views\Account\ReviewProduct.cshtml" />
     <Content Include="Views\Account\ReviewPartial.cshtml" />
     <Content Include="Views\Product\ProductListPartial.cshtml" />
+    <Content Include="Views\About\ReviewPartial.cshtml" />
+
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -570,6 +583,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202312081518149_init.resx">
+      <DependentUpon>202312081518149_init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
