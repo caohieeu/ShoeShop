@@ -4,8 +4,11 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
+using Org.BouncyCastle.Pkcs;
 using ProjectShoeShop.DAL;
 using ProjectShoeShop.Models;
 using ProjectShoeShop.ViewModel;
@@ -20,12 +23,58 @@ namespace ProjectShoeShop.Controllers
         {
             return View();
         }
-        public ActionResult ShowProduct(int MinRange = 0, int MaxRange = 100000000)   
+        public ActionResult ProductListPartial(List<ProductVM> listProduct)
+        {
+            return View(listProduct);
+        }
+        public ActionResult GetMoreProducts(int MinRange = 0, int MaxRange = 100000000, string Search = "", int Page=1)
         {
             var listProduct = db.Products.Include(nameof(Product.Brand))
-                                         .Include(nameof(Product.Category))
-                                         .Take(10).ToList();
+                                         .Include(nameof(Product.Category)).ToList();
             listProduct = listProduct.Where(x => x.Price >= MinRange && x.Price <= MaxRange).ToList();
+
+            if (Search != string.Empty)
+            {
+                listProduct = listProduct.Where(x => x.Name.Contains(Search)).ToList();
+                ViewBag.search = Search;
+            }
+
+            int NumberOfRecords = 6;
+            int NumberOfPages = Convert.ToInt32(Math.Ceiling(listProduct.Count / (1.0 * NumberOfRecords)));
+            int NumberOfRecordToSkip = (Page - 1) * NumberOfRecords;
+            listProduct = listProduct.Skip(NumberOfRecordToSkip).Take(NumberOfRecords).ToList();
+            ViewBag.NumberOfPages = NumberOfPages;
+            ViewBag.Page = Page;
+            ViewBag.MinRange = MinRange;
+            ViewBag.MaxRange = MaxRange;
+            if (listProduct != null)
+            {
+                var moreProducts = listProduct;
+                return PartialView("ProductListPartial", moreProducts);
+            }
+            else
+            {
+                return HttpNotFound();
+            }
+        }
+        public ActionResult ShowProduct(int MinRange = 0, int MaxRange = 100000000, string Search="", int Page=1)   
+        {
+            var listProduct = db.Products.Include(nameof(Product.Brand))
+                                         .Include(nameof(Product.Category)).ToList();
+            listProduct = listProduct.Where(x => x.Price >= MinRange && x.Price <= MaxRange).ToList();
+            
+            if(Search != string.Empty)
+            {
+                listProduct = listProduct.Where(x => x.Name.Contains(Search)).ToList();
+                ViewBag.search = Search;
+            }
+
+            int NumberOfRecords = 6;
+            int NumberOfPages = Convert.ToInt32(Math.Ceiling(listProduct.Count / (1.0 * NumberOfRecords)));
+            int NumberOfRecordToSkip = (Page - 1) * NumberOfRecords;
+            listProduct = listProduct.Skip(NumberOfRecordToSkip).Take(NumberOfRecords).ToList();
+            ViewBag.NumberOfPages = NumberOfPages;
+            ViewBag.Page = Page;
             ViewBag.MinRange = MinRange;
             ViewBag.MaxRange = MaxRange;
             if (listProduct != null)

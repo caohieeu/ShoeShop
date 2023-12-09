@@ -6,59 +6,19 @@
 }
 <section class="ftco-section bg-light">
     <div class="container">
-        <form action="/Contact/SendEmail" method="post" class="bg-white p-5 contact-form">
+        <form action="/Product/ShowProduct" class="bg-white p-5 contact-form">
             <div class="form-group" style="display: flex;">
-                <input type="text" name="Name" class="form-control w-25" placeholder="Your Name">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="text" name="Search" class="form-control w-25" value="@ViewBag.search" placeholder="Shoe Name">
+                <button type="submit" class="btn btn-primary py-3 px-5 mx-3"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div style="clear: both"></div>
         </form>
         <div class="row">
             <div class="col-md-8 col-lg-10 order-md-last">
-                <div class="row">
+                <div class="row" id="productList">
                     @if (Model.Count() > 0)
                     {
-                        foreach (var item in Model)
-                        {
-                            ProjectShoeShop.Controllers.ProductController p = new ProjectShoeShop.Controllers.ProductController();
-                            int rating = p.AVGRating(item.Id);
-
-                            <div class="col-sm-12 col-md-12 col-lg-4 d-flex fadeInUp">
-                                <div class="product d-flex flex-column">
-                                    <a href="/Product/DetailProduct?id=@item.Id&ProductName=@item.Name" class="img-prod">
-                                        <img class="img-fluid" src="@item.ImageURL" alt="Colorlib Template">
-                                        <div class="overlay"></div>
-                                    </a>
-                                    <div class="text py-3 pb-4 px-3">
-                                        <div class="d-flex">
-                                            <div class="cat">
-                                                <span>@item.Category.Name</span>
-                                            </div>
-                                            <div class="rating">
-                                                <p class="text-right mb-0">
-                                                    @for (var i = 1; i <= rating; i++)
-                                                    {
-                                                        <a href="#"><span class="ion-ios-star"></span></a>
-                                                    }
-                                                    @for (var i = 1; i <= 5 - rating; i++)
-                                                    {
-                                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
-                                                    }
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <h3><a href="#">@item.Name</a></h3>
-                                        <div class="pricing">
-                                            <p class="price"><span>$@item.Price</span></p>
-                                        </div>
-                                        <p class="bottom-area d-flex px-3">
-                                            <a href="/Cart/AddCart?ProductId=@item.Id&strURL=@Request.Url.ToString()" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
-                                            <a href="/Cart/BuyNow?ProductId=@item.Id" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        }
+                        @Html.Partial("ProductListPartial", Model)
                     }
                     else
                     {
@@ -67,17 +27,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col text-center">
-                        <div class="block-27">
-                            <ul>
-                                <li><a href="#">&lt;</a></li>
-                                <li class="active"><span>1</span></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">&gt;</a></li>
-                            </ul>
-                        </div>
+                        <button class="btn btn-primary" id="loadMoreBtn">View More...</button>
                     </div>
                 </div>
             </div>
@@ -156,3 +106,33 @@
         </div>
     </div>
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var page = 1; 
+
+        $("#loadMoreBtn").click(function () {
+            page++;
+            loadMoreData(page); 
+        });
+
+        function loadMoreData(page) {
+            $.ajax({
+                url: '/Product/GetMoreProducts',
+                type: 'GET',
+                data: { Page: page },
+                success: function (data) {
+                    console.log(data);
+                    if (data.trim() === "") {
+                        $("#loadMoreBtn").hide();
+                    } else {
+                        $("#productList").append(data);
+                    }
+                },
+                error: function () {
+                    console.log('Error occurred while fetching more products.');
+                }
+            });
+        }
+    });
+</script>
