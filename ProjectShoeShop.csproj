@@ -343,6 +343,7 @@
     <Compile Include="Areas\Admin\Controllers\BrandController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeAdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductAPIController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Controllers\AboutController.cs" />
@@ -565,7 +566,9 @@
     <Content Include="Views\Account\ConfirmReceived.cshtml" />
     <Content Include="Views\Account\ReviewProduct.cshtml" />
     <Content Include="Views\Account\ReviewPartial.cshtml" />
+    <Content Include="Views\Product\ProductListPartial.cshtml" />
     <Content Include="Views\About\ReviewPartial.cshtml" />
+
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,43 @@
+﻿@model List<ProjectShoeShop.Models.Product>
+
+@foreach (var item in Model)
+  {
+    ProjectShoeShop.Controllers.ProductController p = new ProjectShoeShop.Controllers.ProductController();
+    int rating = p.AVGRating(item.Id);
+
+<div class="col-sm-12 col-md-12 col-lg-4 d-flex fadeInUp">
+    <div class="product d-flex flex-column">
+        <a href="/Product/DetailProduct?id=@item.Id&ProductName=@item.Name" class="img-prod">
+            <img class="img-fluid" src="@item.ImageURL" alt="Colorlib Template">
+            <div class="overlay"></div>
+        </a>
+        <div class="text py-3 pb-4 px-3">
+            <div class="d-flex">
+                <div class="cat">
+                    <span>@item.Category.Name</span>
+                </div>
+                <div class="rating">
+                    <p class="text-right mb-0">
+                        @for (var i = 1; i <= rating; i++)
+                        {
+                            <a href="#"><span class="ion-ios-star"></span></a>
+                        }
+                        @for (var i = 1; i <= 5 - rating; i++)
+                        {
+                            <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        }
+                    </p>
+                </div>
+            </div>
+            <h3><a href="#">@item.Name</a></h3>
+            <div class="pricing">
+                <p class="price"><span>$@item.Price</span></p>
+            </div>
+            <p class="bottom-area d-flex px-3">
+                <a href="/Cart/AddCart?ProductId=@item.Id&strURL=@Request.Url.ToString()" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                <a href="/Cart/BuyNow?ProductId=@item.Id" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+            </p>
+        </div>
+    </div>
+</div>
+ }

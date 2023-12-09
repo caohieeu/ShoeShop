@@ -19,7 +19,6 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
         ShoeShopDbContext db = new ShoeShopDbContext();
 
         // GET: Admin/Product
-
         public ActionResult Index(String Search = "", String IconClass = "fa-sort-asc",
             String SortColumn = "DateCreated", int Page = 1)
         {
@@ -231,7 +230,7 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
                          Size = pro.Size,
                          Price = pro.Price,
                          Stock = pro.Stock,
-                         GenderShoe = pro.GenderShoe,
+                         GenderShoe = pro.GenderShoe,   
                          ImageURL = pro.ImageURL,
                          CategoryID = pro.CategoryID,
                          BrandID = pro.BrandID,
@@ -330,7 +329,8 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
         }
         public ActionResult DetailProduct(string id)
         {
-            Product pro = db.Products.Where(x => x.Id == id).FirstOrDefault();
+            ProductAPIController api = new ProductAPIController();
+            Product pro = api.getDetailProduct(id);
             if(pro != null)
             {
                 string Brand = db.Brands.Where(x => x.Id == pro.BrandID).Select(x => x.Name).FirstOrDefault().ToString();
