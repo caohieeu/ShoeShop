@@ -251,7 +251,7 @@ namespace ProjectShoeShop.Controllers
                 Order order = db.Orders.Where(x => x.Id == OrderId).FirstOrDefault();
                 if(order != null)
                 {
-                    order.DeliveryStatus = "Success";
+                    order.DeliveryStatus = "Delivered";
                     ViewBag.OrderId = OrderId;
                     db.SaveChanges();
                     return View();
@@ -311,16 +311,41 @@ namespace ProjectShoeShop.Controllers
                 ReviewDate = DateTime.Now
             };
             Order order = db.Orders.Where(x => x.Id == OrderId).FirstOrDefault();
-            order.DeliveryStatus = "Reviewed";
+            order.DeliveryStatus = "Success";
             db.SaveChanges();
 
             db.Reviews.Add(review);
             db.SaveChanges();
             return RedirectToAction("Ordered", "Account");
         }
-        //public ActionResult ReviewProductSuccess()
-        //{
-
-        //}
+        public ActionResult ChangePassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult ChangePassword(PasswordVM passwordObj)
+        {
+            if(ModelState.IsValid)
+            {
+                User user = (User)Session["User"];
+                if (!BCrypt.Net.BCrypt.Verify(passwordObj.OldPassword, user.PasswordHash))
+                {
+                    ModelState.AddModelError("", "Old password is incorrect !");
+                    return View();
+                }
+                else
+                {
+                    var u = db.Users.Where(x => x.Id == user.Id).FirstOrDefault();
+                    if (u != null)
+                    {
+                        u.PasswordHash = BCrypt.Net.BCrypt.HashPassword(passwordObj.NewPassword);
+                        db.SaveChanges();
+                    }
+                    //ViewBag.Message = "Changed password successfully";
+                }
+                return RedirectToAction("Information");
+            }
+            return View();  
+        }
     }
 }

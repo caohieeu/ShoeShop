@@ -381,6 +381,7 @@
     <Compile Include="ViewModel\CartVM.cs" />
     <Compile Include="ViewModel\CheckoutVM.cs" />
     <Compile Include="ViewModel\OrderVM.cs" />
+    <Compile Include="ViewModel\PasswordVM.cs" />
     <Compile Include="ViewModel\ProductVM.cs" />
     <Compile Include="ViewModel\LoginVM.cs" />
     <Compile Include="ViewModel\RankUserVM.cs" />
@@ -568,7 +569,7 @@
     <Content Include="Views\Account\ReviewPartial.cshtml" />
     <Content Include="Views\Product\ProductListPartial.cshtml" />
     <Content Include="Views\About\ReviewPartial.cshtml" />
-
+    <Content Include="Views\Account\ChangePassword.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
