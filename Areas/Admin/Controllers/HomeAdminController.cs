@@ -62,6 +62,25 @@ namespace ProjectShoeShop.Areas.Admin.Controllers
             }).OrderByDescending(t => t.ToTalMoney).Take(5).ToList();
             return View(lst);
         }
+        public ActionResult NewOrders()
+        {
+            var lst = from user in db.Users
+                        join order in db.Orders on user.Id equals order.UserID
+                        join orderDetail in db.OrderDetails on order.Id equals orderDetail.OrderId
+                        join product in db.Products on orderDetail.ProductId equals product.Id
+                        select new NewOrdersVM
+                        {
+                            Id = user.Id,
+                            FullName = user.FullName,
+                            ImagePath = user.ImagePath,
+                            QuantityProduct = orderDetail.Quantity,
+                            DeliveryStatus = order.DeliveryStatus,
+                            ProductId = product.Id,
+                            NameProduct = product.Name
+                        };
+            var st = lst.Take(5).ToList();
+            return View(st);
+        }
         public int TotalUser()
         {
             try
