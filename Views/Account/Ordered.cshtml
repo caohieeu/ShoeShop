@@ -35,7 +35,7 @@
                                 </td>
 
                                 <td>
-                                    @if (item.DeliveryStatus == "Success")
+                                    @if (item.DeliveryStatus == "Delivered")
                                     {
                                         <span style="background-color: #00b894; color: #fff; padding: 6px 12px; border-radius: 20px;">@item.DeliveryStatus</span>
                                     }
@@ -62,7 +62,7 @@
                                 {
                                     <td colspan="4"><a href="/Account/ConfirmReceived?OrderId=@item.OrderId" class="btn text-white p-2" style="float: right">Received Goods</a></td>
                                 }
-                                else if (item.DeliveryStatus == "Success")
+                                else if (item.DeliveryStatus == "Delivered")
                                 {
                                     <td colspan="4"><a href="/Account/ReviewProduct?OrderId=@item.OrderId" class="btn text-white p-2" style="float: right">Review</a></td>
                                 }

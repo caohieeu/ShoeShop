@@ -156,7 +156,7 @@
                                     <label class="small mb-1" for="Password">Password</label>
                                     <input class="form-control" type="password" name="Password" value="@Model.Password" disabled: disabled />
                                     @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
-                                    <a style="text-decoration: none" href="#">Change password</a>
+                                    <a style="text-decoration: none" href="/Account/ChangePassword">Change password</a>
                                 </div>
                             </div>
 

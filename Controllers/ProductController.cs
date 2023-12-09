@@ -98,6 +98,7 @@ namespace ProjectShoeShop.Controllers
             ViewBag.AvgReviews = AVGRating(id);
             ViewBag.GetProductRanking = GetProductRanking(id);
             ViewBag.StockSizeSmall = db.Products.Where(x => x.Id == id && x.Size == "SMALL").Select(x => x.Stock).FirstOrDefault();
+            ViewBag.Sold = Sold(id);
             return View(lst);
         }
         public ActionResult FilterByMenPartial()
@@ -234,6 +235,21 @@ namespace ProjectShoeShop.Controllers
                 return (int)ratings.Average();
             }
             return 0;
+        }
+        public int Sold(string id)
+        {
+            try
+            {
+                var res = 0;
+                res = db.OrderDetails
+                            .Where(x => x.ProductId == id)
+                            .Sum(x => x.Quantity);
+                return res;
+            }
+            catch
+            {
+                return 0;
+            }
         }
         public int GetProductRanking(string productId)
         {
