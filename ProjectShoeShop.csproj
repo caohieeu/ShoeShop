@@ -379,6 +379,7 @@
     <Compile Include="utility.cs" />
     <Compile Include="ViewModel\CartVM.cs" />
     <Compile Include="ViewModel\CheckoutVM.cs" />
+    <Compile Include="ViewModel\NewOrdersVM.cs" />
     <Compile Include="ViewModel\OrderVM.cs" />
     <Compile Include="ViewModel\ProductVM.cs" />
     <Compile Include="ViewModel\LoginVM.cs" />
@@ -530,6 +531,7 @@
     <Content Include="Areas\Admin\Views\Product\DetailProduct.cshtml" />
     <Content Include="Areas\Admin\Views\Product\CreateNewSize.cshtml" />
     <Content Include="Areas\Admin\Views\HomeAdmin\TopUser.cshtml" />
+    <Content Include="Areas\Admin\Views\HomeAdmin\NewOrders.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\ShoeShop.cshtml" />
