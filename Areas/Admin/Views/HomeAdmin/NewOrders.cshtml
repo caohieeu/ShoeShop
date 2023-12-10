@@ -13,11 +13,15 @@
         <td><span>@item.QuantityProduct</span></td>
         @if (item.DeliveryStatus == "Success")
         {
-            <td><span class="badge badge-success">@item.DeliveryStatus</span></td>
+            <td><span style="background-color: #00b894" class="badge">@item.DeliveryStatus</span></td>
+        }
+        else if (item.DeliveryStatus == "Pending")
+        {
+            <td><span style="background-color: #fdcb6e" class="badge">@item.DeliveryStatus</span></td>
         }
         else
         {
-            <td><span class="badge badge-warning">@item.DeliveryStatus</span></td>
+            <td><span style="background-color: #74b9ff" class="badge">@item.DeliveryStatus</span></td>
         }
     </tr>
 }
