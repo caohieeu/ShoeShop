@@ -1,6 +1,6 @@
 # Title
 
-**ShoeShop Project**
+### ShoeShop Project
 
 # Description
 
@@ -9,12 +9,12 @@ This project is an online shoe store built using [ASP.NET](https://dotnet.micros
 # Installation
 
 1. Clone the project to your machine.
-2. Open the project in Visual Studio
-3. Run the application on a brower to view the shoe store interface
-
-```bash
-pip install foobar
-```
+2. Open the project in Visual Studio.
+   - Step 1: Create a database with the name 'QL_WBG'.
+   - Step 2: Change the connection string according to your host name in the Web.config file
+   - Step 3: Open the Package Manager Console by following the path Tool -> Nuget Package Manager -> Package Manager Console.
+   - Step 4: Type ```add-migration initDB``` and press enter, then type ```update-database``` and press enter.
+4. Run the application on a brower to view the shoe store interface.
 
 # Features
 
@@ -38,28 +38,3 @@ Configure the database connection in the Web.config file
     <add name="MyConnectionString" connectionString="Data Source=<SQL_NAME>;Initial Catalog=QL_WBG;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False" providerName="System.Data.SqlClient" />
   </connectionStrings>
 ```
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
