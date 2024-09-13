@@ -1,0 +1,115 @@
+﻿@model ProjectShoeShop.ViewModel.RegisterVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/css/account.css" rel="stylesheet" />
+    <style>
+        .field-validation-error {
+            margin-top: 37px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body style="background-color: #dbcc8f">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="form-register mx-auto">
+            <div class="header-form-image">
+                <h2 class="text-center my-4">ĐĂNG KÝ</h2>
+                <h5 class="my-4 text-center" style="font-weight: 400">Nhập thông tin cá nhân</h5>
+            </div>
+            <div class="p-4">
+                <p class="my-4 text-danger">@ViewBag.Message</p>
+                <div class="row">
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.FullName)
+                        <p>FullName</p>
+                        @Html.ValidationMessageFor(m => m.FullName, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.UserName)
+                        <p>Username</p>
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.Password, new { @type = "password" })
+                        <p>Password</p>
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.Email)
+                        <p>Email</p>
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 10px !important">
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.ConfirmPassword, new { @type = "password" })
+                        <p>ConfirmPassword</p>
+                        @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.Birth, new { @class = "date-inp", @type = "date" })
+                        <p style="left: 150px; top: 14px">Birth</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.Address)
+                        <p>Address</p>
+                    </div>
+                    <div class="form-group input-bx col-md-6 col-12">
+                        @Html.TextBoxFor(m => m.Phone)
+                        <p>Phone</p>
+                        @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: -21px;">
+                    <label for="ImagePath">Avatar</label>
+                    @Html.TextBoxFor(m => m.ImagePath, new { type = "file", @class="w-100"})
+                </div>
+                <button class="btn btn-outline-light col" type="submit" style="background-color: #dbcc8f; padding: 8px 12px;">
+                    ĐĂNG KÝ
+                </button>
+                <p style="margin-top: 20px;">Bạn đã có tài khoản? <a href="/Account/Login">Đăng nhập</a></p>
+            </div>
+        </div>
+    }
+    <script>
+        const inputs = document.querySelectorAll('.input-bx input');
+        const labels = document.querySelectorAll('.input-bx p');
+
+        inputs.forEach((input, index) => {
+            if (input.value.trim() !== '') {
+                labels[index].classList.add('active');
+            }
+
+            input.addEventListener('focus', () => {
+                if (input.className == "date-inp") {
+                    input.nextElementSibling.classList.add('active-date');
+                }
+                else {
+                    input.nextElementSibling.classList.add('active');
+                }
+            });
+
+            input.addEventListener('blur', () => {
+                if (input.value.trim() == "") {
+                    input.nextElementSibling.classList.remove('active');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ProjectShoeShop.ViewModel.NewOrdersVM>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            <div class="round-img">
+                <a href=""><img width="35" src="@item.ImagePath" alt=""></a>
+            </div>
+        </td>
+        <td>@item.FullName</td>
+        <td><span>@item.NameProduct</span></td>
+        <td><span>@item.QuantityProduct</span></td>
+        @if (item.DeliveryStatus == "Success")
+        {
+            <td><span style="background-color: #00b894" class="badge">@item.DeliveryStatus</span></td>
+        }
+        else if (item.DeliveryStatus == "Pending")
+        {
+            <td><span style="background-color: #fdcb6e" class="badge">@item.DeliveryStatus</span></td>
+        }
+        else
+        {
+            <td><span style="background-color: #74b9ff" class="badge">@item.DeliveryStatus</span></td>
+        }
+    </tr>
+}

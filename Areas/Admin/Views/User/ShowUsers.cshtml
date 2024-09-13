@@ -1,0 +1,134 @@
+﻿@model IEnumerable<ProjectShoeShop.Models.User>
+
+@{
+    ViewBag.Title = "ShowUsers";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+
+    string iconClass = "";
+    if (ViewBag.IconClass == "fa-sort-asc")
+    {
+        iconClass = "fa-sort-desc";
+    }
+    else
+    {
+        iconClass = "fa-sort-asc";
+    }
+
+    string currentSortColumn = Request.QueryString["SortColumn"];
+    string currentIconClass = Request.QueryString["IconClass"];
+}
+
+
+<h2 class="title-page">Users</h2>
+
+<div class="row" style="width: 101%;">
+    <form style=" width: 25%;" action="/Admin/User/ShowUsers" class="col-3 form-search d-flex flex-row align-items-center">
+        @Html.TextBox("Search", ViewBag.search as string, new
+        {
+            @class = "form-control w-auto mr-2",
+            placeholder = "Search",
+            type = "search"
+        })
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <p class="col" style="width: 120px; opacity: 0.8; align-self: center">@ViewBag.UsersNumber records found</p>
+    <p>
+        <a class="btn btn-outline-success btn-add" href="/Admin/User/Create">Create New</a>
+    </p>
+</div>
+
+<table class="table text-center table-bordered">
+    <tr class="text-white" style="background-color: #aaa69d">
+        <th>
+            <a class="text-decoration-none text-white"
+               href="/Admin/User/ShowUsers?SortColumn=UserName&IconClass=@iconClass&Search=@ViewBag.search">
+                UserName
+            </a>
+            @if (ViewBag.SortColumn == "UserName")
+            {
+                <i class="fa @ViewBag.IconClass"></i>
+            }
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            <a class="text-decoration-none text-white"
+               href="/Admin/User/ShowUsers?SortColumn=FullName&IconClass=@iconClass&Search=@ViewBag.search">
+                FullName
+            </a>
+            @if (ViewBag.SortColumn == "FullName")
+            {
+                <i class="fa @ViewBag.IconClass"></i>
+            }
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a style="text-decoration: none" href="/Admin/User/Detail?id=@item.Id">@item.UserName</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            @if (item.UserName != "admin")
+            {
+                <td>
+                    <a class="btn btn-warning" href="/Admin/User/Edit?id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |
+                    <a class="btn btn-danger" href="/Admin/User/Delete?id=@item.Id"><i style="color: black" class="fa-solid fa-trash"></i></a>
+                </td>
+            }
+            else
+            {
+                <td></td>
+            }
+        </tr>
+    }
+
+</table>
+@*Pagination*@
+<tr>
+    <td colspan="6">
+        <ul class="pagination justify-content-center">
+            @{
+                int PrevPage = (ViewBag.Page - 1);
+                int NextPage = (ViewBag.Page + 1);
+                PrevPage = PrevPage <= 0 ? 1 : PrevPage;
+                NextPage = NextPage > ViewBag.NumberOfPages ? ViewBag.NumberOfPages : NextPage;
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/User/ShowUsers?Search=@ViewBag.search&Page=@PrevPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Prev</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.NumberOfPages; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Admin/User/ShowUsers?Search=@ViewBag.search&Page=@i&SortColumn=@currentSortColumn&IconClass=@currentIconClass">@i</a>
+                </li>
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/User/ShowUsers?Search=@ViewBag.search&Page=@NextPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Next</a>
+            </li>
+        </ul>
+    </td>
+</tr>

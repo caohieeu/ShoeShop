@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ProjectShoeShop.Models.Brand>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+    var j = 1;
+
+    string iconClass = "";
+    if (ViewBag.IconClass == "fa-sort-asc")
+    {
+        iconClass = "fa-sort-desc";
+    }
+    else
+    {
+        iconClass = "fa-sort-asc";
+    }
+
+    string currentSortColumn = Request.QueryString["SortColumn"];
+    string currentIconClass = Request.QueryString["IconClass"];
+}
+
+<h2 class="title-page">Brands</h2>
+
+<div class="row" style="width: 101%;">
+    <form style=" width: 25%;" action="/Admin/Brand/Index" class="col-3 form-search d-flex flex-row align-items-center">
+        @Html.TextBox("Search", ViewBag.search as string, new
+        {
+            @class = "form-control w-auto mr-2",
+            placeholder = "Search",
+            type = "search"
+        })
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <p class="col" style="width: 120px; opacity: 0.8; align-self: center">@ViewBag.BrandsNumber records found</p>
+    <p>
+        <a class="btn btn-outline-success btn-add" href="/Admin/Brand/Create">Create New</a>
+    </p>
+</div>
+<table class="table table-bordered text-center">
+    <tr style="background-color: #576574">
+        <th class="text-white">
+            <a class="text-decoration-none text-white"
+               href="/Admin/Brand/Index?SortColumn=Name&IconClass=@iconClass&Search=@ViewBag.search">
+                Name
+            </a>
+            <i class="fa @ViewBag.IconClass"></i>
+        </th>
+        <th class="text-white">
+            Description
+        </th>
+        <th class="text-white">
+            Action
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr class="@(j == 2 ? "table-active" : "")">
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @if (item.Description.Length <= 100)
+            {
+                <p>@item.Description</p>
+            }
+            else
+            {
+                <p>@item.Description.Substring(0, 100)...</p>
+            }
+        </td>
+        <td>
+            <a class="btn btn-warning" href="/Admin/Brand/Edit?Id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |
+            <a class="btn btn-danger" href="/Admin/Brand/Delete?Id=@item.Id"><i style="color: black" class="fa-solid fa-trash"></i></a>
+        </td>
+    </tr>
+    j = j == 1 ? 2 : 1;
+}
+
+</table>
+<tr>
+    <td colspan="3">
+        <ul class="pagination justify-content-center">
+            @{
+                int PrevPage = (ViewBag.Page - 1);
+                int NextPage = (ViewBag.Page + 1);
+                PrevPage = PrevPage <= 0 ? 1 : PrevPage;
+                NextPage = NextPage > ViewBag.NumberOfPages ? ViewBag.NumberOfPages : NextPage;
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/Brand?Search=@ViewBag.search&Page=@PrevPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Prev</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.NumberOfPages; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Admin/Brand?Search=@ViewBag.search&Page=@i&SortColumn=@currentSortColumn&IconClass=@currentIconClass">@i</a>
+                </li>
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/Brand?Search=@ViewBag.search&Page=@NextPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Next</a>
+            </li>
+        </ul>
+    </td>
+</tr>

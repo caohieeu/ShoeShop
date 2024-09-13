@@ -1,0 +1,138 @@
+﻿@model List<ProjectShoeShop.Models.Product>
+
+@{
+    ViewBag.Title = "ShowProduct";
+    Layout = "~/Views/Product/ProductLayout.cshtml";
+}
+<section class="ftco-section bg-light">
+    <div class="container">
+        <form action="/Product/ShowProduct" class="bg-white p-5 contact-form">
+            <div class="form-group" style="display: flex;">
+                <input type="text" name="Search" class="form-control w-25" value="@ViewBag.search" placeholder="Shoe Name">
+                <button type="submit" class="btn btn-primary py-3 px-5 mx-3"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div style="clear: both"></div>
+        </form>
+        <div class="row">
+            <div class="col-md-8 col-lg-10 order-md-last">
+                <div class="row" id="productList">
+                    @if (Model.Count() > 0)
+                    {
+                        @Html.Partial("ProductListPartial", Model)
+                    }
+                    else
+                    {
+                        <p class="text-center">Products not be found</p>
+                    }
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <button class="btn btn-primary" id="loadMoreBtn">View More...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-2">
+                <div class="sidebar">
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Categories</h2>
+                        <div class="fancy-collapse-panel">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Men's Shoes
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    @Html.Action("FilterByMenPartial", "Product")
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Women's Shoes
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    @Html.Action("FilterByWomenPartial", "Product")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Price Range</h2>
+                        <form method="post" action="/Product/ShowProduct" class="colorlib-form-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Price from:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="MinRange" id="MinRange" class="form-control">
+                                                <option @(ViewBag.MinRange == 1 ? "selected" : "") value="1">1</option>
+                                                <option @(ViewBag.MinRange == 200 ? "selected" : "") value="200">200</option>
+                                                <option @(ViewBag.MinRange == 300 ? "selected" : "") value="300">300</option>
+                                                <option @(ViewBag.MinRange == 400 ? "selected" : "") value="400">400</option>
+                                                <option @(ViewBag.MinRange == 1000 ? "selected" : "") value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Price to:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="MaxRange" id="MaxRange" class="form-control">
+                                                <option @(ViewBag.MaxRange == 2000 ? "selected" : "") value="2000">2000</option>
+                                                <option @(ViewBag.MaxRange == 4000 ? "selected" : "") value="4000">4000</option>
+                                                <option @(ViewBag.MaxRange == 6000 ? "selected" : "") value="6000">6000</option>
+                                                <option @(ViewBag.MinMaxRangeRange == 9000 ? "selected" : "") value="8000">8000</option>
+                                                <option @(ViewBag.MaxRange == 10000 ? "selected" : "") value="10000">10000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" style="width:100px; margin-left:30px" class="btn btn-primary">Fill</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var page = 1; 
+
+        $("#loadMoreBtn").click(function () {
+            page++;
+            loadMoreData(page); 
+        });
+
+        function loadMoreData(page) {
+            $.ajax({
+                url: '/Product/GetMoreProducts',
+                type: 'GET',
+                data: { Page: page },
+                success: function (data) {
+                    console.log(data);
+                    if (data.trim() === "") {
+                        $("#loadMoreBtn").hide();
+                    } else {
+                        $("#productList").append(data);
+                    }
+                },
+                error: function () {
+                    console.log('Error occurred while fetching more products.');
+                }
+            });
+        }
+    });
+</script>

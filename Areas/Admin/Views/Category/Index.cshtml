@@ -1,0 +1,115 @@
+﻿@model IEnumerable<ProjectShoeShop.Models.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+    var j = 1;
+
+    string iconClass = "";
+    if (ViewBag.IconClass == "fa-sort-asc")
+    {
+        iconClass = "fa-sort-desc";
+    }
+    else
+    {
+        iconClass = "fa-sort-asc";
+    }
+
+    string currentSortColumn = Request.QueryString["SortColumn"];
+    string currentIconClass = Request.QueryString["IconClass"];
+}
+
+<h2 class="title-page">Categories</h2>
+
+<div class="row" style="width: 101%;">
+    <form style=" width: 25%;" action="/Admin/Category/Index" class="col-3 form-search d-flex flex-row align-items-center">
+        @Html.TextBox("Search", ViewBag.search as string, new
+        {
+            @class = "form-control w-auto mr-2",
+            placeholder = "Search",
+            type = "search"
+        })
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <p class="col" style="width: 120px; opacity: 0.8; align-self: center">@ViewBag.CategoryNumber records found</p>
+    <p>
+        <a class="btn btn-outline-success btn-add" href="/Admin/Category/Create">Create New</a>
+    </p>
+</div>
+
+<table class="table table-bordered table-hover text-center">
+    <tr style="background-color: #01a3a4">
+        <th>
+            <a class="text-decoration-none text-white"
+               href="/Admin/Category/Index?SortColumn=Name&IconClass=@iconClass&Search=@ViewBag.search">
+                Name
+            </a>
+            <i class="fa @ViewBag.IconClass"></i>
+        </th>
+        <th class="text-white">
+            Description
+        </th>
+        <th class="text-white">Action</th>
+    </tr>
+    @if (Model.Count() == 0)
+    {
+        <h4>No results were found</h4>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+            <tr class="@(j == 2 ? "table-active" : "")">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                @if (item.Description.Length <= 70)
+                {
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @item.Description.Substring(0, 70)...
+                    </td>
+                }
+                <td width="27%">
+                    <a class="btn btn-warning" href="/Admin/Category/Edit?Id=@item.Id"><i class="fa-solid fa-pen-to-square"></i></a> |
+                    <a class="btn btn-danger" href="/Admin/Category/Delete?Id=@item.Id"><i style="color: black" class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+            j = j == 1 ? 2 : 1;
+        }
+    }
+</table>
+@*Pagination*@
+<tr>
+    <td colspan="4">
+        <ul class="pagination justify-content-center">
+            @{
+                int PrevPage = (ViewBag.Page - 1);
+                int NextPage = (ViewBag.Page + 1);
+                PrevPage = PrevPage <= 0 ? 1 : PrevPage;
+                NextPage = NextPage > ViewBag.NumberOfPages ? ViewBag.NumberOfPages : NextPage;
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/Category?Search=@ViewBag.search&Page=@PrevPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Prev</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.NumberOfPages; i++)
+            {
+                <li class="page-item">
+                    <a class="page-link"
+                       href="/Admin/Category?Search=@ViewBag.search&Page=@i&SortColumn=@currentSortColumn&IconClass=@currentIconClass">@i</a>
+                </li>
+            }
+            <li class="page-item">
+                <a class="page-link"
+                   href="/Admin/Category?Search=@ViewBag.search&Page=@NextPage&SortColumn=@currentSortColumn&IconClass=@currentIconClass">Next</a>
+            </li>
+        </ul>
+    </td>
+</tr>

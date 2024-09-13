@@ -1,0 +1,109 @@
+﻿@model ProjectShoeShop.ViewModel.ProductVM
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h2 class="title-page">Products / @ViewBag.Title</h2>
+
+@using (Html.BeginForm("Edit", "Product", new { id = ViewBag.IdProduct }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Size, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.Size, new
+            List<SelectListItem>()
+               {
+                    new SelectListItem() { Text="SMALL", Value="SMALL"},
+                    new SelectListItem() { Text="MEDIUM", Value="MEDIUM"},
+                    new SelectListItem() { Text="LARGE", Value="LARGE"},
+                    new SelectListItem() { Text="EXTRA LARGE", Value="extra large"}
+               }, "Select Size", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Size, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Stock, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Stock, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Stock, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="ImageURL">Image Product</label>
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.ImageURL, new { type = "file" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.GenderShoe, "GenderShoe", new { @class = "col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.GenderShoe, new
+           List<SelectListItem>() {
+            new SelectListItem() { Text="Male", Value="male"},
+            new SelectListItem() { Text="Female", Value="female"}
+            }, "Select Gender", new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryID, "Category Name", new { @class = "col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.CategoryID,
+                new SelectList(ViewBag.Categories, "Id", "Name"),
+                "Select Category", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.BrandID, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.BrandID,
+                new SelectList(ViewBag.Brands, "Id", "Name"),
+                "Select Brand", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

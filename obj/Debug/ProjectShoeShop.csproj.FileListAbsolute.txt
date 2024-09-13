@@ -1,0 +1,1058 @@
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\ProjectShoeShop.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csi.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csi.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\csi.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.AppContext.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Console.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Net.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\vbc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\vbc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\vbc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Helpers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Mvc.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Helpers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Web.Mvc.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\EntityFramework.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\EntityFramework.SqlServer.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\EntityFramework.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\EntityFramework.SqlServer.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\Newtonsoft.Json.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\Newtonsoft.Json.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.Migrations.initDb.resources
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\BCrypt.Net-Next.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Buffers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Memory.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Numerics.Vectors.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\BCrypt.Net-Next.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Buffers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Memory.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Numerics.Vectors.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.Migrations.updateUserModel.resources
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ProjectShoeShop\obj\Debug\ProjectShoeShop.Migrations.addImageFieldUser.resources
+D:\Apps\vstudio\Project\ShoeShop\bin\ProjectShoeShop.dll.config
+D:\Apps\vstudio\Project\ShoeShop\bin\ProjectShoeShop.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\ProjectShoeShop.pdb
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csc.exe
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csc.exe.config
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csc.rsp
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csi.exe
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csi.exe.config
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\csi.rsp
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.AppContext.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Console.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Net.Http.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\vbc.exe
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\vbc.exe.config
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\vbc.rsp
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\Apps\vstudio\Project\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Apps\vstudio\Project\ShoeShop\bin\BCrypt.Net-Next.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\EntityFramework.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\EntityFramework.SqlServer.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Newtonsoft.Json.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Buffers.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Memory.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Numerics.Vectors.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Helpers.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Mvc.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Razor.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\BCrypt.Net-Next.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\EntityFramework.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Newtonsoft.Json.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Buffers.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Memory.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Numerics.Vectors.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Razor.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Helpers.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Web.Mvc.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.initdb.resources
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache
+D:\Apps\vstudio\Project\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.addValidate.resources
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Options.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.ComponentModel.Annotations.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Text.Encodings.Web.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Options.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Text.Encodings.Web.xml
+D:\Apps\vstudio\Project\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\ProjectShoeShop.dll.config
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\ProjectShoeShop.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\ProjectShoeShop.pdb
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csc.exe
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csc.exe.config
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csc.rsp
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csi.exe
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csi.exe.config
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\csi.rsp
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.AppContext.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Console.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.IO.Compression.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Net.Http.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.ValueTuple.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\vbc.exe
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\vbc.exe.config
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\vbc.rsp
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\VBCSCompiler.exe
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\BCrypt.Net-Next.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\EntityFramework.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\EntityFramework.SqlServer.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Options.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Newtonsoft.Json.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Buffers.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.ComponentModel.Annotations.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Memory.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Numerics.Vectors.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Text.Encodings.Web.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Helpers.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Mvc.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Razor.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.Razor.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\BCrypt.Net-Next.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\EntityFramework.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\EntityFramework.SqlServer.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Options.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Newtonsoft.Json.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Buffers.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Memory.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Numerics.Vectors.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Text.Encodings.Web.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Razor.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Webpages.Razor.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Helpers.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\System.Web.Mvc.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.initdb.resources
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.addValidate.resources
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.dll
+E:\HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\WEB_PROGRAMMING\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\ProjectShoeShop.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csi.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csi.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\csi.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.AppContext.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Console.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Net.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\vbc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\vbc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\vbc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\BCrypt.Net-Next.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\EntityFramework.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\EntityFramework.SqlServer.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Options.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Newtonsoft.Json.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Buffers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.ComponentModel.Annotations.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Memory.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Numerics.Vectors.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Text.Encodings.Web.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Helpers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Mvc.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\BCrypt.Net-Next.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\EntityFramework.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Options.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Newtonsoft.Json.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Buffers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Memory.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Numerics.Vectors.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Text.Encodings.Web.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Helpers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\System.Web.Mvc.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.addRequired.resources
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\Temp\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.addGenderShoeField.resources
+D:\WorkspaceSchool\ShoeShop\bin\ProjectShoeShop.dll.config
+D:\WorkspaceSchool\ShoeShop\bin\ProjectShoeShop.dll
+D:\WorkspaceSchool\ShoeShop\bin\ProjectShoeShop.pdb
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csc.exe
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csc.exe.config
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csc.rsp
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csi.exe
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csi.exe.config
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\csi.rsp
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.AppContext.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Console.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Net.Http.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\vbc.exe
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\vbc.exe.config
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\vbc.rsp
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\WorkspaceSchool\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkspaceSchool\ShoeShop\bin\BCrypt.Net-Next.dll
+D:\WorkspaceSchool\ShoeShop\bin\EntityFramework.dll
+D:\WorkspaceSchool\ShoeShop\bin\EntityFramework.SqlServer.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Options.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkspaceSchool\ShoeShop\bin\Newtonsoft.Json.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Buffers.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.ComponentModel.Annotations.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Memory.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Numerics.Vectors.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Text.Encodings.Web.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Helpers.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Mvc.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Razor.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\WorkspaceSchool\ShoeShop\bin\BCrypt.Net-Next.xml
+D:\WorkspaceSchool\ShoeShop\bin\EntityFramework.xml
+D:\WorkspaceSchool\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Options.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+D:\WorkspaceSchool\ShoeShop\bin\Newtonsoft.Json.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Buffers.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Memory.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Numerics.Vectors.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Text.Encodings.Web.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Razor.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Helpers.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Mvc.xml
+D:\WorkspaceSchool\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.editOrderAndDiscountModel.resources
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.editCartModel.resources
+D:\WorkspaceSchool\ShoeShop\bin\Newtonsoft.Json.Bson.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Net.Http.Formatting.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Http.dll
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Http.WebHost.dll
+D:\WorkspaceSchool\ShoeShop\bin\Newtonsoft.Json.Bson.pdb
+D:\WorkspaceSchool\ShoeShop\bin\Newtonsoft.Json.Bson.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Net.Http.Formatting.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Http.xml
+D:\WorkspaceSchool\ShoeShop\bin\System.Web.Http.WebHost.xml
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.editShippingAddress.resources
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.editShippingAddress2.resources
+D:\WorkspaceSchool\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.updateName.resources
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\ProjectShoeShop.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csi.exe
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csi.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\csi.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.AppContext.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Console.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Net.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\vbc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\vbc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\vbc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\BCrypt.Net-Next.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\EntityFramework.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\EntityFramework.SqlServer.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Options.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Newtonsoft.Json.Bson.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Newtonsoft.Json.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Buffers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.ComponentModel.Annotations.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Memory.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Net.Http.Formatting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Numerics.Vectors.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Text.Encodings.Web.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Helpers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Http.WebHost.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Mvc.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\BCrypt.Net-Next.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\EntityFramework.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Options.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Newtonsoft.Json.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Newtonsoft.Json.Bson.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Newtonsoft.Json.Bson.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Buffers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Memory.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Net.Http.Formatting.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Numerics.Vectors.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Text.Encodings.Web.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Http.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Http.WebHost.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Helpers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Web.Mvc.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\BouncyCastle.Cryptography.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MailKit.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MimeKit.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Formats.Asn1.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\BouncyCastle.Cryptography.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MailKit.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MailKit.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MailKit.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MimeKit.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MimeKit.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\MimeKit.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.Formats.Asn1.xml
+D:\WorkspaceSchool\Nam 3\Ky1\test\ShoeShop\bin\System.ValueTuple.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\ProjectShoeShop.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csi.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csi.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\csi.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.AppContext.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Console.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.IO.Compression.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.IO.FileSystem.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Net.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Net.Sockets.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Xml.XPath.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\vbc.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\vbc.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\vbc.rsp
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\VBCSCompiler.exe
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\BCrypt.Net-Next.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\BouncyCastle.Cryptography.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\EntityFramework.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\EntityFramework.SqlServer.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MailKit.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authorization.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Routing.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.DependencyModel.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.ObjectPool.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Options.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Primitives.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Net.Http.Headers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MimeKit.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Newtonsoft.Json.Bson.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Newtonsoft.Json.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Buffers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.ComponentModel.Annotations.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Formats.Asn1.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Memory.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Net.Http.Formatting.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Numerics.Vectors.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Text.Encodings.Web.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Threading.Tasks.Extensions.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.ValueTuple.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Helpers.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Http.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Http.WebHost.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Mvc.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.Deployment.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.Razor.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\BCrypt.Net-Next.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\BouncyCastle.Cryptography.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\EntityFramework.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MailKit.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MailKit.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MailKit.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authorization.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Routing.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.ObjectPool.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Options.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Extensions.Primitives.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.Net.Http.Headers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MimeKit.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MimeKit.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\MimeKit.dll.config
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Newtonsoft.Json.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Newtonsoft.Json.Bson.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Newtonsoft.Json.Bson.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Buffers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Formats.Asn1.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Memory.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Net.Http.Formatting.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Numerics.Vectors.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Text.Encodings.Web.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Threading.Tasks.Extensions.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.ValueTuple.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Http.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Http.WebHost.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.Deployment.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Webpages.Razor.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Helpers.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\System.Web.Mvc.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.csproj.AssemblyReference.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CoreCompileInputs.cache
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.csproj.CopyComplete
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.dll
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.pdb
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.Migrations.init.resources
+D:\WorkspaceSchool\Nam 3\Ky1\LT Web\ShoeShop\obj\Debug\ProjectShoeShop.csproj.GenerateResource.cache

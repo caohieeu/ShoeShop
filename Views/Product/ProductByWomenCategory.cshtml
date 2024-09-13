@@ -1,0 +1,144 @@
+﻿@model List<ProjectShoeShop.Models.Product>
+
+@{
+    ViewBag.Title = "ProductByWomenCategory";
+    Layout = "~/Views/Product/ProductLayout.cshtml";
+}
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-10 order-md-last">
+                <div class="row">
+                    @if (Model.Count() > 0)
+                    {
+                        foreach (var item in Model)
+                        {
+                            ProjectShoeShop.Controllers.ProductController p = new ProjectShoeShop.Controllers.ProductController();
+                            int rating = p.AVGRating(item.Id);
+
+                            <div class="col-sm-12 col-md-12 col-lg-4 d-flex fadeInUp">
+                                <div class="product d-flex flex-column">
+                                    <a href="/Product/DetailProduct?id=@item.Id&ProductName=@item.Name" class="img-prod">
+                                        <img class="img-fluid" src="@item.ImageURL" alt="Colorlib Template">
+                                        <div class="overlay"></div>
+                                    </a>
+                                    <div class="text py-3 pb-4 px-3">
+                                        <div class="d-flex">
+                                            <div class="cat">
+                                                <span>@item.Category.Name</span>
+                                            </div>
+                                            <div class="rating">
+                                                <p class="text-right mb-0">
+                                                    @for (var i = 1; i <= rating; i++)
+                                                    {
+                                                        <a href="#"><span class="ion-ios-star"></span></a>
+                                                    }
+                                                    @for (var i = 1; i <= 5 - rating; i++)
+                                                    {
+                                                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                                    }
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <h3><a href="#">@item.Name</a></h3>
+                                        <div class="pricing">
+                                            <p class="price"><span>$@item.Price</span></p>
+                                        </div>
+                                        <p class="bottom-area d-flex px-3">
+                                            <a href="/Cart/AddCart?ProductId=@item.Id&strURL=@Request.Url.ToString()" class="add-to-cart text-center py-2 mr-1"><span>Add to cart <i class="ion-ios-add ml-1"></i></span></a>
+                                            <a href="/Cart/BuyNow?ProductId=@item.Id" class="buy-now text-center py-2">Buy now<span><i class="ion-ios-cart ml-1"></i></span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-center">Products not be found</p>
+                    }
+                </div>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <div class="block-27">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-2">
+                <div class="sidebar">
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Categories</h2>
+                        <div class="fancy-collapse-panel">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Men's Shoes
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    @Html.Action("FilterByMenPartial", "Product")
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Women's Shoes
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    @Html.Action("FilterByWomenPartial", "Product")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-box-2">
+                        <h2 class="heading">Price Range</h2>
+                        <form method="post" class="colorlib-form-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Price from:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="MinRange" id="MinRange" class="form-control">
+                                                <option @(ViewBag.MinRange == 1 ? "selected" : "") value="1">1</option>
+                                                <option @(ViewBag.MinRange == 200 ? "selected" : "") value="200">200</option>
+                                                <option @(ViewBag.MinRange == 300 ? "selected" : "") value="300">300</option>
+                                                <option @(ViewBag.MinRange == 400 ? "selected" : "") value="400">400</option>
+                                                <option @(ViewBag.MinRange == 1000 ? "selected" : "") value="1000">1000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="guests">Price to:</label>
+                                        <div class="form-field">
+                                            <i class="icon icon-arrow-down3"></i>
+                                            <select name="MaxRange" id="MaxRange" class="form-control">
+                                                <option @(ViewBag.MaxRange == 2000 ? "selected" : "") value="2000">2000</option>
+                                                <option @(ViewBag.MaxRange == 4000 ? "selected" : "") value="4000">4000</option>
+                                                <option @(ViewBag.MaxRange == 6000 ? "selected" : "") value="6000">6000</option>
+                                                <option @(ViewBag.MinMaxRangeRange == 9000 ? "selected" : "") value="8000">8000</option>
+                                                <option @(ViewBag.MaxRange == 10000 ? "selected" : "") value="10000">10000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button style="width:100px; margin-left:30px" class="btn btn-primary">Fill</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,54 @@
+﻿@model ProjectShoeShop.Models.Product
+
+@{
+    ViewBag.Title = "DetailProduct";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+<h2 class="text-center my-5">Detail Product</h2>
+
+<div style="margin-bottom: 100px">
+    <div class="row" style="font-size: 20px">
+        <div class="col-6">
+            <img src="@Model.ImageURL" style="width: 100%" alt="Alternate Text" />
+        </div>
+        <div class="col-6" style=" padding-left: 139px;">
+            <div style="display: flex">
+                <p><b>ID</b>: </p>
+                <p style="margin-left: 100px">@Model.Id</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Name</b>: </p>
+                <p style="margin-left: 75px">@Model.Name</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Size</b>: </p>
+                <p style="margin-left: 85px">@Model.Size</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Price</b>: </p>
+                <p style="margin-left: 80px">@Model.Price</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Category</b>: </p>
+                <p style="margin-left: 50px">@ViewBag.Category</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Brand</b>: </p>
+                <p style="margin-left: 80px">@ViewBag.Brand</p>
+            </div>
+            <div style="display: flex">
+                <p><b>Gender</b>: </p>
+                <p style="margin-left: 70px">@Model.GenderShoe</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap;">
+                <p style="margin-right: 10px;"><b>Description:</b> </p>
+                <p style="overflow-wrap: break-word; flex: 1;">@Model.Description</p>
+            </div>
+            <div style="display: flex">
+                <a class="btn btn-primary" href="/Admin/Product/CreateNewSize?id=@Model.Id">Add Size</a>
+            </div>
+        </div>
+    </div>
+
+</div>

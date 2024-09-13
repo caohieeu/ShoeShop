@@ -1,0 +1,40 @@
+﻿@using ProjectShoeShop.Models
+
+@{ 
+    ProjectShoeShop.DAL.ShoeShopDbContext db = new ProjectShoeShop.DAL.ShoeShopDbContext();
+    var product = db.Products.OrderBy(x => Guid.NewGuid()).FirstOrDefault();
+} 
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/Home/Index">Shoeshop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="/Home/index" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catalog</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="/Product/showProduct">Shop</a>
+                        <a class="dropdown-item" href="/Product/DetailProduct?id=@product.Id&ProductName=@product.Name">Single Product</a>
+                        <a class="dropdown-item" href="/Cart/ShowCart">Cart</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="@Url.Action("AboutUs", "About")" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="@Url.Action("ContactUs", "Contact")" class="nav-link">Contact</a></li>
+                <li class="nav-item align-self-center cta cta-colored dropdown" style="width: 100%;">
+                    <div class="row">
+                        @Html.Action("AccountPartialView", "Account")
+                    </div>
+                </li>
+                <li class="nav-item cta cta-colored">
+                    @Html.Action("CartPartial", "Cart")
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

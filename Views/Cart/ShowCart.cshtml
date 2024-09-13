@@ -1,0 +1,102 @@
+﻿@model List<ProjectShoeShop.ViewModel.CartVM>
+
+@{
+    ViewBag.Title = "ShowCart";
+    Layout = "~/Views/Cart/CartLayout.cshtml";
+
+    List<ProjectShoeShop.ViewModel.CartVM> lst = Session["Cart"] as List<ProjectShoeShop.ViewModel.CartVM>;
+}
+<section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 fadeInUp">
+                <div class="cart-list">
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>&nbsp;</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Size</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                var totalMoney = @item.Quantity * @item.Price;
+                                <tr class="text-center">
+
+                                    <td class="image-prod"><a href="/Product/DetailProduct?id=@item.Id"><div class="img" style="background-image: url(@item.ImageURL); "></div></a></td>
+
+                                    <td class="product-name">
+                                        <h3>@item.ProductName</h3>
+                                        @if (item.ProductDescription.Length >= 50)
+                                        {
+                                            <p>@item.ProductDescription.Substring(0, 50)</p>
+                                        }
+                                        else
+                                        {
+                                    <p>@item.ProductDescription</p>
+                                        }
+                                    </td>
+
+                                    <form action="/Cart/UpdateCart?ProductId=@item.Id" method="post">
+                                        <td class="price">$@item.Price</td>
+                                        
+                                        <td class="price">@item.Size</td>
+
+                                        <td class="quantity">
+                                            <div class="input-group mb-3">
+                                                <input type="number" name="Quantity" class="quantity form-control input-number" value="@item.Quantity" min="1" max="100">
+                                            </div>
+                                        </td>
+
+                                        <td class="total">$@totalMoney</td>
+
+                                        <td class="product-remove"><a href="/Cart/RemoveCart?ProductId=@item.Id"><span class="ion-ios-close"></span></a></td>
+
+                                        <td>
+                                            <button type="submit" style="background-color: #dbcc8f; padding: 7px 7px; cursor: pointer; border: none; height: 29px !important;">
+                                                <i style="color: #000000; display: flex;" class="fa-regular fa-pen-to-square"></i>
+                                            </button>
+                                        </td>
+                                    </form>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col col-lg-5 col-md-6 mt-5 cart-wrap fadeInUp">
+                <div class="cart-total mb-3">
+                    <h3>Cart Totals</h3>
+                    <p class="d-flex">
+                        <span>Number of product</span>
+                        <span>@ViewBag.TotalProduct</span>
+                    </p>
+                    <p class="d-flex">
+                        <span>Discount</span>
+                        <span>$0.00</span>
+                    </p>
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Total</span>
+                        <span>$@ViewBag.TotalMoney</span>
+                    </p>
+                </div>
+                <p class="text-center"><a href="/Cart/CheckOut?strURL=@Request.Url.ToString()" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+                @if (lst.Count == 0)
+                {
+                    <p class="text-danger">There are no products to checkout</p>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+

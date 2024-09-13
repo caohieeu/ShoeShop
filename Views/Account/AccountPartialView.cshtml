@@ -1,0 +1,47 @@
+﻿<style>
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .ftco-navbar-light.scrolled .nav-link {
+        padding-bottom: 0.9rem !important;
+        color: #000000 !important;
+    }
+</style>
+
+@using ProjectShoeShop.Models
+
+@if (Session["User"] != null)
+{
+    var user = Session["User"] as User;
+    if (user != null)
+    {
+        if (user.FullName.Length > 6)
+        {
+            <a class="nav-link dropdown-toggle align-self-center nav-link w-100 col" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p style="margin: 0; padding-right: 0; font-weight: 700" class="col align-self-center">
+                    @user.FullName.Substring(0, 6).ToString()...
+                </p>
+                @*<img style="width: 20px" src="~/Assets/images/user.png" alt="Alternate Text" />*@
+            </a>
+        }
+        else
+        {
+            <a class="nav-link dropdown-toggle nav-link w-100 col" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p style="margin: 0; padding-right: 0; font-weight: 700" class="col align-self-center">
+                    @user.FullName
+                </p>
+                @*<img style="width: 20px" src="~/Assets/images/user.png" alt="Alternate Text" />*@
+            </a>
+        }
+        <div class="dropdown-menu" aria-labelledby="dropdown04">
+            <a class="dropdown-item" href="/Account/Logout">Logout</a>
+            <a class="dropdown-item" href="/Account/Information">Information</a>
+        </div>
+    }
+}
+else
+{
+    <a href="/Account/Login" class="nav-link w-100 col">
+        <img style="width: 20px" src="~/Assets/images/user.png" alt="Alternate Text" />
+    </a>
+}
